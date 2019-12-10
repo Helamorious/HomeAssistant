@@ -1,0 +1,103 @@
+# Main Configuration
+
+## Main Settings
+# https://www.home-assistant.io/docs/configuration/basic/
+homeassistant:
+  name: Hilton
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: !secret elevation
+  unit_system: metric
+  temperature_unit: C
+  time_zone: !secret tz
+  customize_glob: !include config/customize_glob.yaml
+  customize: !include config/customize.yaml
+
+  # Authentication Providers
+  # https://www.home-assistant.io/docs/authentication/providers/
+  auth_providers:
+    - type: homeassistant
+
+  # Packages
+  # https://home-assistant.io/docs/configuration/packages/ 
+  packages: !include_dir_named packages
+
+## Integrations
+
+# API
+# https://www.home-assistant.io/components/api/
+# https://developers.home-assistant.io/docs/en/external_api_rest.html
+# Depends on 'http'
+api:
+
+# Automation
+automation: !include config/automation.yaml
+
+# Config
+# https://www.home-assistant.io/components/config/
+config:
+
+# Discovery
+# https://www.home-assistant.io/integrations/discovery/
+discovery:
+
+# Frontend
+frontend: !include config/frontend.yaml
+
+# History
+history: !include config/history.yaml
+
+# HTTP
+http: !include config/http.yaml
+
+# IOS
+# Depends on 'mobile_app', 'discovery'
+ios:
+
+# Logbook
+# Note: All entries need to also be defined in recorder.yaml
+logbook: !include config/logbook.yaml
+
+# Lovelace UI
+# https://www.home-assistant.io/lovelace/
+lovelace:
+  mode: yaml
+
+# Map
+# https://www.home-assistant.io/integrations/map/
+map:
+
+# Mobile App
+# https://www.home-assistant.io/integrations/mobile_app/
+mobile_app:
+
+# Person
+# https://www.home-assistant.io/integrations/person/
+#   Configurations moved into package 'person.yaml' to group users and customizations
+person:
+
+# Recorder
+recorder: !include config/recorder.yaml
+
+# Script
+script: !include config/script.yaml
+
+# Simple Service Discovery Protocol
+# https://www.home-assistant.io/integrations/ssdp/
+ssdp:
+
+# Sun
+# https://www.home-assistant.io/integrations/sun/
+sun:
+
+# System Health
+# https://www.home-assistant.io/integrations/system_health/
+system_health:
+
+# Updater
+# https://www.home-assistant.io/integrations/updater/
+updater:
+
+# ZeroConf
+# https://www.home-assistant.io/integrations/zeroconf/
+zeroconf:

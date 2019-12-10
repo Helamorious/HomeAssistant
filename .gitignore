@@ -1,0 +1,18 @@
+# Ignore Logs
+*.log
+
+# Ignore Python Cache
+__pycache__
+*.pyc
+
+# Ignore HomeAssistant Userdata
+.cloud
+.storage
+.vscode
+.ios.conf
+.ring_cache.pickle
+deps
+downloads
+secrets.yaml
+home-assistant.*
+*.db

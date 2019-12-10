@@ -1,0 +1,16 @@
+homeassistant:
+  customize:
+    person.michael:
+      entity_picture: !secret michael_entity_picture
+    person.laura:
+      entity_picture: !secret laura_entity_picture
+
+person:
+  # Michael
+  - name: Michael
+    id: michael
+    device_trackers: device_tracker.michaels_phone
+  # Laura
+  - name: Laura
+    id: laura
+    device_trackers: device_tracker.lauras_phone
