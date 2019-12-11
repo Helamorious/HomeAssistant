@@ -1,0 +1,71 @@
+# Circadian light ( https://community.home-assistant.io/t/circadian-light-with-philips-hue-independent-from-world-clocks/45435 )
+
+sensor:
+  - platform: template
+    sensors:
+      length_of_day_factor:
+        friendly_name: 'Circadian Light - Length of Day'
+        value_template: >
+          {% if is_state('sun.sun' , 'above_horizon') %}
+            {% set daylength = ((as_timestamp(states.sun.sun.attributes.next_setting) - as_timestamp(states.sun.sun.attributes.next_rising)) / 3600) + 24 %}
+              {{ (daylength*-0.0063616)+0.11131 }}
+          {% endif %}
+  - platform: template
+    sensors:
+      farbtemp:
+        friendly_name: 'Circadian Light - Colour Temperature'
+        unit_of_measurement: 'mired'
+        value_template: >
+          {% if is_state('sun.sun' , 'above_horizon') %}
+            {{ ((states.sensor.length_of_day_factor.state | round (5))*((states.sun.sun.attributes.azimuth)-180)**2 + 175) | int }}
+          {% elif (as_timestamp(states.sun.sun.attributes.next_dusk)) - (as_timestamp(states.sun.sun.attributes.next_setting)) < 0 or  (as_timestamp(states.sun.sun.attributes.next_rising)) - (as_timestamp(states.sun.sun.attributes.next_dawn)) < 0 %}
+            350
+          {% else %}
+            390
+          {% endif %}
+
+automation:
+  - id: mireds_bedroom
+    alias: 'Circadian Light - Bedroom'
+    trigger:
+      platform: time_pattern
+      minutes: '/5'
+    condition:
+      - condition: state
+        entity_id: light.hue_ambiance_lamp_1
+        state: 'on'
+    action:
+      - service: light.turn_on
+        data_template:
+          entity_id: light.hue_ambiance_lamp_1
+          color_temp: "{{ states.sensor.farbtemp.state }}"
+
+  - id: mireds_lounge1
+    alias: 'Circadian Light - Lounge 1 (TV)'
+    trigger:
+      platform: time_pattern
+      minutes: '/5'
+    condition:
+      - condition: state
+        entity_id: light.hue_ambiance_lamp_2
+        state: 'on'
+    action:
+      - service: light.turn_on
+        data_template:
+          entity_id: light.hue_ambiance_lamp_2
+          color_temp: "{{ states.sensor.farbtemp.state }}"
+
+  - id: mireds_lounge2
+    alias: 'Circadian Light - Lounge 2 (PC)'
+    trigger:
+      platform: time_pattern
+      minutes: '/5'
+    condition:
+      - condition: state
+        entity_id: light.hue_ambiance_lamp_3
+        state: 'on'
+    action:
+      - service: light.turn_on
+        data_template:
+          entity_id: light.hue_ambiance_lamp_3
+          color_temp: "{{ states.sensor.farbtemp.state }}"

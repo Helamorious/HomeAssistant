@@ -41,6 +41,10 @@ config:
 # https://www.home-assistant.io/integrations/discovery/
 discovery:
 
+# FFMPEG
+# https://www.home-assistant.io/integrations/ffmpeg/
+ffmpeg:
+
 # Frontend
 frontend: !include config/frontend.yaml
 
@@ -49,6 +53,9 @@ history: !include config/history.yaml
 
 # HTTP
 http: !include config/http.yaml
+
+# Philips Hue
+hue: !include config/hue.yaml
 
 # IOS
 # Depends on 'mobile_app', 'discovery'
@@ -71,10 +78,16 @@ map:
 # https://www.home-assistant.io/integrations/mobile_app/
 mobile_app:
 
+# Notify
+notify: !include config/discord.yaml
+
 # Person
 # https://www.home-assistant.io/integrations/person/
 #   Configurations moved into package 'person.yaml' to group users and customizations
 person:
+
+# Plex
+plex: !include config/plex.yaml
 
 # Recorder
 recorder: !include config/recorder.yaml
