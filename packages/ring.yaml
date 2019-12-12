@@ -73,7 +73,7 @@ automation:
       entity_id: camera.Doorbell_LastVideo
       
 - id: ring_download_processed
-  alias: "Doorbell Video Person Detected
+  alias: "Doorbell Video Person Detected"
   initial_state: on
   trigger:
     platform: event
