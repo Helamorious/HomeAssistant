@@ -1,4 +1,5 @@
 # https://www.home-assistant.io/integrations/discord/
+
 - name: discord
   platform: discord
   token: !secret discord_token

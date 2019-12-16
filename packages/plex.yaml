@@ -1,0 +1,52 @@
+# https://www.home-assistant.io/integrations/plex/
+
+plex:
+  host: plex.hilton.local
+  token: !secret plex_token
+
+scene:
+  # Define how we want the scene configured while Media is playing
+  - name: theater_playing
+    entities:
+      light.hue_ambiance_lamp_2:
+        state: on
+        brightness_pct: 20
+      light.hue_ambiance_lamp_3: off
+
+automation:
+  # When Plex is playing on the TV, dim the lounge room lights
+  - id: theater_playing
+    alias: 'Home Theater Playing'
+    initial_state: on
+    trigger:
+      - entity_id: media_player.plex_plex_for_hisense
+        platform: state
+        to: 'playing'
+    action:
+      - service: scene.create
+        data:
+          entity_id: scene.template_pre_theater_playing
+          snapshot_entities:
+            - light.hue_ambiance_lamp_2
+            - light.hue_ambiance_lamp_3
+      - service: scene.apply
+        data:
+          entity_id: scene.theater_playing
+          transition: 3
+
+  - id: theater_stopped
+    alias: 'Home Theater Stopped or Paused'
+    initial_state: on
+    trigger:
+      - entity_id: media_player.plex_plex_for_hisense
+        platform: state
+        from: 'playing'
+        to: 'stopped'
+      - entity_id: media_player.plex_plex_for_hisense
+        platform: state
+        from: 'playing'
+        to: 'paused'
+    action:
+      - service: scene.apply
+        data:
+          entity_id: scene.template_pre_theater_playing

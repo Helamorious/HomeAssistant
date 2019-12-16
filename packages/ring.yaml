@@ -3,8 +3,8 @@
 # Physical Things
 # * Ring Video Doorbell - 'Front Door'
 
+# Enable the Ring integration
 ring:
-  # Connect to the Ring cloud service
   username: !secret ring_user
   password: !secret ring_pass
 
@@ -13,9 +13,9 @@ camera:
   - platform: ring
   # Create a camera instance for processing a local file
   - platform: local_file
-    name: Doorbell_LastVideo
-    file_path: '/downloads/Front Door/Front Door'
-
+    name: front_door_lastvideo
+    file_path: '/config/tmp/front_door.mp4'
+    
 binary_sensor:
   # Import Ring binary sensors
   - platform: ring
@@ -24,21 +24,25 @@ sensor:
   # Import Ring sensors
   - platform: ring
 
+
 downloader:
   # Enable the downloader integration
   #  This is used to download cloud video files in the DOORBELL PRESS automation flows
-  download_dir: downloads
+  download_dir: /config/tmp/
 
 image_processing:
   # Create a tensorflow instance for person detection
   #  This is used by the DOORBELL PRESS automation flows
   - platform: tensorflow
     scan_interval: 10000
-    source:
-      - entity_id: camera.Doorbell_LastVideo
+    # Note; Hopefully source entity_id isn't required so that this can be reused for any automation flow against multiple camera sources
+    #source:
+    #  - entity_id: camera.front_door_lastvideo
     file_out:
-      - "/tmp/{{ camera_entity.split('.')[1] }}_latest.jpg"
-      - "/tmp/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
+      # Generate a still image and overwrite latest.jpg when a person is detected
+      - "/config/tmp/{{ camera_entity.split('.')[1] }}_latest.jpg"
+      # Note; in future we may wish to keep a record of all detected people...
+      #- "/config/www/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
     model:
       # Configure the tensorflow learning data
       graph: /config/tensorflow/frozen_inference_graph.pb
@@ -71,7 +75,6 @@ automation:
     - service: downloader.download_file
       data_template:
         url: "{{ state_attr('camera.front_door', 'video_url') }}"
-        subdir: '/config/tmp/'
         filename: 'front_door.mp4'
 
 # DOORBELL PRESS - Part 2 of 3
@@ -83,7 +86,7 @@ automation:
   trigger:
     - platform: event
       event_type: downloader_download_complete
-      filename: "front_door.mp4"
+        filename: "front_door.mp4"
   action:
     - service: image_processing.scan
       data:

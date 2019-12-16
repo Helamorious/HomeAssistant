@@ -16,3 +16,4 @@ downloads
 secrets.yaml
 home-assistant.*
 *.db
+tmp

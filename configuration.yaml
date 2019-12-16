@@ -8,10 +8,10 @@ homeassistant:
   longitude: !secret longitude
   elevation: !secret elevation
   unit_system: metric
-  temperature_unit: C
   time_zone: !secret tz
-  customize_glob: !include config/customize_glob.yaml
-  customize: !include config/customize.yaml
+  customize_glob:
+  # https://www.home-assistant.io/docs/configuration/customizing-devices/
+  customize:
 
   # Authentication Providers
   # https://www.home-assistant.io/docs/authentication/providers/
@@ -31,7 +31,8 @@ homeassistant:
 api:
 
 # Automation
-automation: !include config/automation.yaml
+# https://www.home-assistant.io/integrations/automation/
+automation:
 
 # Config
 # https://www.home-assistant.io/components/config/
@@ -46,10 +47,12 @@ discovery:
 ffmpeg:
 
 # Frontend
-frontend: !include config/frontend.yaml
+# https://www.home-assistant.io/integrations/frontend/
+frontend:
 
 # History
-history: !include config/history.yaml
+# https://www.home-assistant.io/components/history
+history:
 
 # HTTP
 http: !include config/http.yaml
@@ -62,8 +65,9 @@ hue: !include config/hue.yaml
 ios:
 
 # Logbook
+# https://www.home-assistant.io/components/logbook/
 # Note: All entries need to also be defined in recorder.yaml
-logbook: !include config/logbook.yaml
+logbook: 
 
 # Lovelace UI
 # https://www.home-assistant.io/lovelace/
@@ -86,14 +90,13 @@ notify: !include config/discord.yaml
 #   Configurations moved into package 'person.yaml' to group users and customizations
 person:
 
-# Plex
-plex: !include config/plex.yaml
-
 # Recorder
-recorder: !include config/recorder.yaml
+# https://www.home-assistant.io/components/recorder/
+recorder:
 
 # Script
-script: !include config/script.yaml
+# https://www.home-assistant.io/integrations/script/
+script:
 
 # Simple Service Discovery Protocol
 # https://www.home-assistant.io/integrations/ssdp/

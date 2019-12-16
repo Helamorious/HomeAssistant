@@ -1,3 +1,4 @@
 # https://www.home-assistant.io/integrations/plex/
+
 host: plex.hilton.local
 token: !secret plex_token
