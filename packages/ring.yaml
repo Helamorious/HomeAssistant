@@ -13,9 +13,9 @@ camera:
   - platform: ring
   # Create a camera instance for processing a local file
   - platform: local_file
-    name: front_door_lastvideo
-    file_path: '/config/tmp/front_door.mp4'
-    
+    name: Doorbell_LastVideo
+    file_path: '/downloads/Front Door/Front Door'
+
 binary_sensor:
   # Import Ring binary sensors
   - platform: ring
@@ -34,14 +34,11 @@ image_processing:
   #  This is used by the DOORBELL PRESS automation flows
   - platform: tensorflow
     scan_interval: 10000
-    # Note; Hopefully source entity_id isn't required so that this can be reused for any automation flow against multiple camera sources
-    #source:
-    #  - entity_id: camera.front_door_lastvideo
+    source:
+      - entity_id: camera.Doorbell_LastVideo
     file_out:
-      # Generate a still image and overwrite latest.jpg when a person is detected
-      - "/config/tmp/{{ camera_entity.split('.')[1] }}_latest.jpg"
-      # Note; in future we may wish to keep a record of all detected people...
-      #- "/config/www/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
+      - "/tmp/{{ camera_entity.split('.')[1] }}_latest.jpg"
+      - "/tmp/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
     model:
       # Configure the tensorflow learning data
       graph: /config/tensorflow/frozen_inference_graph.pb
