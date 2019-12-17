@@ -9,9 +9,6 @@ homeassistant:
   elevation: !secret elevation
   unit_system: metric
   time_zone: !secret tz
-  # https://www.home-assistant.io/docs/configuration/customizing-devices/
-  customize:
-
   # Authentication Providers
   # https://www.home-assistant.io/docs/authentication/providers/
   auth_providers:
