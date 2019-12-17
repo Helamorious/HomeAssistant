@@ -6,7 +6,7 @@ plex:
 
 scene:
   # Define how we want the scene configured while Media is playing
-  - name: theater_playing
+  - name: theater_dim
     entities:
       light.hue_ambiance_lamp_2:
         state: on
@@ -14,7 +14,8 @@ scene:
       light.hue_ambiance_lamp_3: off
 
 automation:
-  # When Plex is playing on the TV, dim the lounge room lights
+  # When Plex is playing on the TV, if the lights are on then dim them
+  #  The initial state is saved into an unconfigured scene to reapply later
   - id: theater_playing
     alias: 'Home Theater Playing'
     initial_state: on
@@ -31,9 +32,10 @@ automation:
             - light.hue_ambiance_lamp_3
       - service: scene.apply
         data:
-          entity_id: scene.theater_playing
+          entity_id: scene.theater_dim
           transition: 3
 
+# When Plex is stopped/paused, set the scene back to the initial state.
   - id: theater_stopped
     alias: 'Home Theater Stopped or Paused'
     initial_state: on
