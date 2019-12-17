@@ -9,7 +9,6 @@ homeassistant:
   elevation: !secret elevation
   unit_system: metric
   time_zone: !secret tz
-  customize_glob:
   # https://www.home-assistant.io/docs/configuration/customizing-devices/
   customize:
 
