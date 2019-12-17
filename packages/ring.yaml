@@ -81,7 +81,7 @@ automation:
 # When a Ring video is finished downloading
 #  Pass it to the Tensorflow image processor
 - id: ring_download_complete
-  alias: "Doorbell Video Download Complete"
+  alias: 'Doorbell Video Download Complete'
   initial_state: on
   trigger:
     - platform: event
@@ -97,7 +97,7 @@ automation:
 # When TensorFlow identifies a person within the video
 #  Send a notification to Discord with the image of the detected face attached
 - id: ring_download_processed
-  alias: "Doorbell Video Person Detected"
+  alias: 'Doorbell Video Person Detected'
   initial_state: on
   trigger:
     - platform: event
