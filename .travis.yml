@@ -3,7 +3,7 @@ python:
   - "3.7"
 before_install:
   - mv secrets_travis.yaml secrets.yaml
-  - sudo apt-get install -y libudev-dev
+  - sudo apt-get install -y libudev-dev ffmpeg libatlas-base-dev libopenjp2-7 libtiff5
 install:
   - pip3 install homeassistant
 script:
