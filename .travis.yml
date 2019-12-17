@@ -5,6 +5,7 @@ python:
 before_install:
   - mv secrets_travis.yaml secrets.yaml
   - sudo apt-get install -y libudev-dev libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libswresample-dev libavfilter-dev libatlas-base-dev libopenjp2-7 libtiff5
+  - sudo ln -s /Helamorious/HomeAssistant/ /config
 install:
   - pip3 install homeassistant
 script:
