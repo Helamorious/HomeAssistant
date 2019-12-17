@@ -14,7 +14,7 @@ camera:
   # Create a camera instance for processing a local file
   - platform: local_file
     name: front_door_lastvideo
-    file_path: '/config/tmp/front_door.mp4'
+    file_path: /config/tmp/front_door.mp4
     
 binary_sensor:
   # Import Ring binary sensors
@@ -45,7 +45,7 @@ image_processing:
       #- "/config/www/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
     model:
       # Configure the tensorflow learning data
-      graph: /config/tensorflow/frozen_inference_graph.pb
+      graph: /home/homeassistant/.homeassistant/config/tensorflow/frozen_inference_graph.pb
       categories:
         - person
 
@@ -75,7 +75,7 @@ automation:
     - service: downloader.download_file
       data_template:
         url: "{{ state_attr('camera.front_door', 'video_url') }}"
-        filename: 'front_door.mp4'
+        filename: front_door.mp4
 
 # DOORBELL PRESS - Part 2 of 3
 # When a Ring video is finished downloading
@@ -87,7 +87,7 @@ automation:
     - platform: event
       event_type: downloader_download_complete
       event_data:
-        filename: "front_door.mp4"
+        filename: front_door.mp4
   action:
     - service: image_processing.scan
       data:
@@ -111,4 +111,4 @@ automation:
         message: '[NOTIFY] Person Detected.'
         data:
           images:
-          - "/config/tmp/front_door_lastvideo_latest.jpg"
+          - /config/tmp/front_door_lastvideo_latest.jpg
