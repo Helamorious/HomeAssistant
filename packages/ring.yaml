@@ -99,9 +99,9 @@ automation:
   alias: "Doorbell Video Person Detected"
   initial_state: on
   trigger:
-    platform: event
-    event_type: image_processing.detect_face
-      entity_id: camera.front_door_lastvideo
+    - platform: event
+      event_type: image_processing.detect_face
+        entity_id: camera.front_door_lastvideo
   action:
     - service: notify.discord
       data:
