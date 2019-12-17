@@ -109,6 +109,6 @@ automation:
       data:
         target: !secret discord_channel
         message: '[NOTIFY] Person Detected.'
-          data:
-            images:
-              - "/config/tmp/front_door_lastvideo_latest.jpg"
+        data:
+          images:
+          - "/config/tmp/front_door_lastvideo_latest.jpg"
