@@ -102,6 +102,7 @@ automation:
   trigger:
     - platform: event
       event_type: image_processing.detect_face
+      event_data:
         entity_id: camera.front_door_lastvideo
   action:
     - service: notify.discord
