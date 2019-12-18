@@ -1,4 +1,7 @@
 # HomeAssistant
+[![HA Version](https://img.shields.io/badge/Home%20Assistant-0.103.0-blue.svg)](https://img.shields.io/badge/Home%20Assistant-0.103.0-blue.svg)
+[![Build Status](https://travis-ci.com/Helamorious/HomeAssistant.svg?branch=master)](https://travis-ci.com/Helamorious/HomeAssistant)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/helamorious/HomeAssistant.svg)](https://img.shields.io/github/last-commit/helamorious/HomeAssistant.svg)
 
 This is my planned HomeAssistant configuration. My current configurations that are running are a mess of spagetti configuration files. Migrating into Git will allow me to clean these up and manage my changes the the configs moving forward.
 
