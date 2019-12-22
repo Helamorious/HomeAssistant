@@ -1,0 +1,31 @@
+# Docker Compose file for HomeAssistant container
+version: '3.7'
+
+# HomeAssistant
+services:
+  homeassistant:
+    container_name: home-assistant
+    image: homeassistant/home-assistant:stable
+    ports:
+      - "8123"
+    volumes:
+      # Pass the HomeAssistant configuration into the container
+      - <configpath>:/config
+    environment:
+      # Set the Timezone
+      - TZ=Etc/Universal
+    networks:
+      vlan10:
+        # Set the IP address of the HomeAssistant instance
+        ipv4_address: <hostip>
+    dns:
+      # Set the (local) DNS server
+      - <dnsserverip>
+    restart: unless-stopped
+
+# Use a tagged interface
+#  Example is using Vlan10
+networks:
+  vlan10:
+    external:
+      name: vlan10

@@ -11,6 +11,7 @@ __pycache__
 .vscode
 .ios.conf
 .ring_cache.pickle
+.uuid
 deps
 downloads
 secrets.yaml
