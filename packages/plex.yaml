@@ -8,10 +8,10 @@ scene:
   # Define how we want the scene configured while Media is playing
   - name: theater_dim
     entities:
-      light.hue_ambiance_lamp_2:
+      light.lounge:
         state: on
         brightness_pct: 20
-      light.hue_ambiance_lamp_3: off
+      light.office: off
 
 automation:
   # When Plex is playing on the TV, if the lights are on then dim them
@@ -28,8 +28,8 @@ automation:
         data:
           entity_id: scene.template_pre_theater_playing
           snapshot_entities:
-            - light.hue_ambiance_lamp_2
-            - light.hue_ambiance_lamp_3
+            - light.lounge
+            - light.office
       - service: scene.apply
         data:
           entity_id: scene.theater_dim
