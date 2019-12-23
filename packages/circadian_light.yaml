@@ -35,6 +35,8 @@ automation:
     action:
       - service: homeassistant.update_entity
         entity_id: sensor.farbtemp
+      - service: homeassistant.update_entity
+        entity_id: sensor.length_of_day_factor
 
   # Update the colour temperature every 2 minutes
   #  Note; These is set to 2mins to catch any time the lights are activated by the Hue remotes.
