@@ -25,11 +25,24 @@ sensor:
           {% endif %}
 
 automation:
+  # Regularly update the farbtemp sensor for troubleshooting.
+  #  Note; this should be updated everytime one of the other automations is called
+  - id: mireds_test
+    alias: 'Circadian Light - Value Testing'
+    trigger:
+      platform: time_pattern
+      minutes: '/2'
+    action:
+      - service: homeassistant.update_entity
+        entity_id: sensor.farbtemp
+
+  # Update the colour temperature every 2 minutes
+  #  Note; These is set to 2mins to catch any time the lights are activated by the Hue remotes.
   - id: mireds_bedroom
     alias: 'Circadian Light - Bedroom'
     trigger:
       platform: time_pattern
-      minutes: '/5'
+      minutes: '/2'
     condition:
       - condition: state
         entity_id: light.bedroom
@@ -44,7 +57,7 @@ automation:
     alias: 'Circadian Light - Lounge 1 (TV)'
     trigger:
       platform: time_pattern
-      minutes: '/5'
+      minutes: '/2'
     condition:
       - condition: state
         entity_id: light.lounge
@@ -59,7 +72,7 @@ automation:
     alias: 'Circadian Light - Lounge 2 (PC)'
     trigger:
       platform: time_pattern
-      minutes: '/5'
+      minutes: '/2'
     condition:
       - condition: state
         entity_id: light.office
