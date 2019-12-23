@@ -31,7 +31,7 @@ automation:
             - light.lounge
             - light.office
       - service: scene.apply
-        data:
+        data_template:
           entity_id: scene.theater_dim
           transition: 3
 
@@ -50,5 +50,5 @@ automation:
         to: 'paused'
     action:
       - service: scene.apply
-        data:
+        data_template:
           entity_id: scene.template_pre_theater_playing
