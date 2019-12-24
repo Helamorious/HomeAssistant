@@ -3,20 +3,21 @@
 # Physical Things
 # * Ring Video Doorbell - 'Front Door'
 
+# Apply customizations for HA UI
+homeassistant:
+  customize:
+    # Hide the intermediary objects for Doorbell press automations
+    ring_download_complete:
+      hidden: true
+    ring_download_processed:
+      hidden: true
+    front_door_lastvideo:
+      hidden: true
+
 # Enable the Ring integration
 ring:
   username: !secret ring_user
   password: !secret ring_pass
-
-# Apply customizations for HA UI
-customize:
-  # Hide the intermediary objects for Doorbell press automations
-  ring_download_complete:
-    hidden: true
-  ring_download_processed:
-    hidden: true
-  front_door_lastvideo:
-    hidden: true
 
 camera:
   # Import Ring camera devices
