@@ -2,6 +2,8 @@
 
 homeassistant:
   customize:
+    person.admin:
+      hidden: true
     person.michael:
       entity_picture: !secret michael_entity_picture
     person.laura:
