@@ -1,5 +1,12 @@
 # Circadian light ( https://community.home-assistant.io/t/circadian-light-with-philips-hue-independent-from-world-clocks/45435 )
-
+customize:
+  length_of_day_factor:
+    hidden: true
+  farbtemp:
+    hidden: true
+  mireds_test:
+    hidden: true
+  
 sensor:
   - platform: template
     sensors:
