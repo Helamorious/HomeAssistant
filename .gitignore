@@ -18,3 +18,4 @@ secrets.yaml
 home-assistant.*
 *.db
 tmp
+frozen_inference_graph.pb

@@ -4,6 +4,7 @@ python:
   - "3.7"
 before_install:
   - mv secrets_travis.yaml secrets.yaml
+  - mv tensorflow/frozen_inference_graph.pb_travis tensorflow/frozen_inference_graph.pb
   - sudo apt-get install -y libudev-dev libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libswresample-dev libavfilter-dev libatlas-base-dev libopenjp2-7 libtiff5
   - sudo ln -s /home/travis/build/Helamorious/HomeAssistant/ /config
 install:
