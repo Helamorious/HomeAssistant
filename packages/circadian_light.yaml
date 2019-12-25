@@ -26,7 +26,7 @@ sensor:
         unit_of_measurement: 'mired'
         value_template: >
           {% if is_state('sun.sun', 'above_horizon') %}
-            {{ ((states.sensor.length_of_day_factor.state | round (5))*(min((log((states.sun.sun.attributes.azimuth),180)),(log(((states.sun.sun.attributes.azimuth) * -1),180))))**2 + 175) | int }}
+            {{ ((states.sensor.length_of_day_factor.state | round (5))*([(log((states.sun.sun.attributes.azimuth),180)),(log(((states.sun.sun.attributes.azimuth) * -1),180))] | min)**2 + 175) | int }}
           {% elif (as_timestamp(states.sun.sun.attributes.next_dusk)) - (as_timestamp(states.sun.sun.attributes.next_setting)) < 0 or  (as_timestamp(states.sun.sun.attributes.next_rising)) - (as_timestamp(states.sun.sun.attributes.next_dawn)) < 0 %}
             350
           {% else %}
