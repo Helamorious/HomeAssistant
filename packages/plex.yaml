@@ -28,8 +28,8 @@ automation:
         data:
           entity_id: scene.template_pre_theater_playing
           snapshot_entities:
-            - light.lounge
-            - light.office
+          - light.lounge
+          - light.office
       - service: scene.turn_on
         data:
           entity_id: scene.theater_dim
