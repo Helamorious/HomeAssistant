@@ -11,7 +11,10 @@ scene:
       light.lounge:
         state: on
         brightness_pct: 20
-      light.office: off
+        transition: 2
+      light.office:
+        state: off
+        transition: 2
 
 automation:
   # When Plex is playing on the TV, if the lights are on then dim them
@@ -32,7 +35,7 @@ automation:
           - light.office
       - service: scene.turn_on
         data:
-          entity_id: scene.theater_dim
+          scene: scene.theater_dim
 
 # When Plex is stopped/paused, set the scene back to the initial state.
   - id: theater_stopped
