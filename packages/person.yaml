@@ -8,6 +8,10 @@ homeassistant:
       entity_picture: !secret michael_entity_picture
     person.laura:
       entity_picture: !secret laura_entity_picture
+    device_tracker.michaels_phone:
+      hidden: true
+    device_tracker.lauras_phone:
+      hidden: true
 
 person:
   # Michael
