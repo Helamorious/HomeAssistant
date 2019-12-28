@@ -95,7 +95,7 @@ automation:
   initial_state: on
   trigger:
     - platform: event
-      event_type: downloader_download_complete
+      event_type: downloader_download_completed
       event_data:
         filename: front_door.mp4
   action:
