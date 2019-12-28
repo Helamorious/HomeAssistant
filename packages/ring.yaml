@@ -7,11 +7,11 @@
 homeassistant:
   customize:
     # Hide the intermediary objects for Doorbell press automations
-    ring_download_complete:
+    automation.ring_download_complete:
       hidden: true
-    ring_download_processed:
+    automation.ring_download_processed:
       hidden: true
-    front_door_lastvideo:
+    automation.front_door_lastvideo:
       hidden: true
 
 # Enable the Ring integration

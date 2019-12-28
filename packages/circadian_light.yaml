@@ -2,11 +2,9 @@
 
 homeassistant:
   customize:
-    length_of_day_factor:
+    sensor.length_of_day_factor:
       hidden: true
-    farbtemp:
-      hidden: true
-    mireds_test:
+    sensor.farbtemp:
       hidden: true
   
 sensor:
@@ -34,19 +32,6 @@ sensor:
           {% endif %}
 
 automation:
-  # Regularly update the farbtemp sensor for troubleshooting.
-  #  Note; this should be updated everytime one of the other automations is called
-  - id: mireds_test
-    alias: 'Circadian Light - Value Testing'
-    trigger:
-      platform: time_pattern
-      minutes: '/2'
-    action:
-      - service: homeassistant.update_entity
-        entity_id: sensor.farbtemp
-      - service: homeassistant.update_entity
-        entity_id: sensor.length_of_day_factor
-
   # Update the colour temperature every 2 minutes
   #  Note; These is set to 2mins to catch any time the lights are activated by the Hue remotes.
   - id: mireds_bedroom
