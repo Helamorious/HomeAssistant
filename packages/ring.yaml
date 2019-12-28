@@ -49,7 +49,7 @@ image_processing:
       - entity_id: camera.front_door_lastvideo
     file_out:
       # Generate a still image and overwrite latest.jpg when a person is detected
-      - "/config/tmp/{{ camera_entity.split('.')[1] }}_latest.jpg"
+      - "/config/tmp/front_door.jpg"
       # Note; in future we may wish to keep a record of all detected people...
       #- "/config/www/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
     model:
@@ -101,7 +101,7 @@ automation:
   action:
     - service: image_processing.scan
       data:
-        entity_id: image_processing.tensorflow_front_door_lastvideo
+        entity_id: camera.front_door_lastvideo
 
 # DOORBELL PRESS - Part 3 of 3
 # When TensorFlow identifies a person within the video
@@ -121,4 +121,4 @@ automation:
         message: '[NOTIFY] Person Detected.'
         data:
           images:
-          - /config/tmp/front_door_lastvideo_latest.jpg
+          - "/config/tmp/front_door.jpg"
