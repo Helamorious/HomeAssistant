@@ -45,18 +45,18 @@ image_processing:
   #  This is used by the DOORBELL PRESS automation flows
   - platform: tensorflow
     scan_interval: 10000
-  #  source:
-  #    - entity_id: camera.front_door_lastvideo
-  #  file_out:
+    source:
+      - entity_id: camera.front_door_lastvideo
+    file_out:
       # Generate a still image and overwrite latest.jpg when a person is detected
-  #    - "/config/tmp/front_door.jpg"
+      - "/config/tmp/front_door.jpg"
       # Note; in future we may wish to keep a record of all detected people...
       #- "/config/www/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
-  #  model:
+    model:
       # Configure the tensorflow learning data
-  #    graph: /config/tensorflow/frozen_inference_graph.pb
-  #    categories:
-  #      - person
+      graph: /config/tensorflow/frozen_inference_graph.pb
+      categories:
+        - person
 
 automation:
 # DOORBELL PRESS
@@ -100,15 +100,8 @@ automation:
         filename: front_door.mp4
   action:
     - service: image_processing.scan
-      service_template:
-        source:
-        - entity_id: camera.front_door_lastvideo
-        file_out: 
-          - "/config/tmp/front_door.jpg"
-        model:
-          graph: /config/tensorflow/frozen_inference_graph.pb
-          categories:
-            - person
+      data:
+        entity_id: camera.front_door_lastvideo
 
 # DOORBELL PRESS - Part 3 of 3
 # When TensorFlow identifies a person within the video
