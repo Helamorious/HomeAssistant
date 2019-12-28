@@ -96,12 +96,11 @@ automation:
   trigger:
     - platform: event
       event_type: downloader_download_complete
-  condition:
-    - filename: front_door.mp4
+      event_data:
+        filename: front_door.mp4
   action:
     - service: image_processing.scan
-      data:
-        entity_id: camera.front_door_lastvideo
+      entity_id: camera.front_door_lastvideo
 
 # DOORBELL PRESS - Part 3 of 3
 # When TensorFlow identifies a person within the video
@@ -112,8 +111,8 @@ automation:
   trigger:
     - platform: event
       event_type: image_processing.detect_face
-  condition:
-    - entity_id: camera.front_door_lastvideo
+      event_data:
+        entity_id: camera.front_door_lastvideo
   action:
     - service: notify.discord
       data:
