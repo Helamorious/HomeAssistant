@@ -97,8 +97,7 @@ automation:
     - platform: event
       event_type: downloader_download_complete
   condition:
-    event_data:
-      filename: front_door.mp4
+    filename: front_door.mp4
   action:
     - service: image_processing.scan
       data:
@@ -114,8 +113,7 @@ automation:
     - platform: event
       event_type: image_processing.detect_face
   condition:
-    event_data:
-      entity_id: camera.front_door_lastvideo
+    entity_id: camera.front_door_lastvideo
   action:
     - service: notify.discord
       data:
