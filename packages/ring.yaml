@@ -25,7 +25,7 @@ camera:
   # Create a camera instance for processing a local file
   - platform: ffmpeg
     name: front_door_lastvideo
-    input: /config/tmp/front_door.mp4
+    input: "/config/tmp/front_door.mp4"
     
 binary_sensor:
   # Import Ring binary sensors
@@ -100,7 +100,7 @@ automation:
         filename: front_door.mp4
   action:
     - service: image_processing.scan
-      data_template:
+      data:
         entity_id: image_processing.tensorflow_front_door_lastvideo
 
 # DOORBELL PRESS - Part 3 of 3
