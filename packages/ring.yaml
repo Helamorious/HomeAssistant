@@ -85,6 +85,7 @@ automation:
       data_template:
         url: "{{ state_attr('camera.front_door', 'video_url') }}"
         filename: front_door.mp4
+        overwrite: yes
 
 # DOORBELL PRESS - Part 2 of 3
 # When a Ring video is finished downloading
