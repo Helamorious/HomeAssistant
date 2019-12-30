@@ -1,6 +1,11 @@
 # Floorplan custom UI enhancements 
 #   https://github.com/pkozul/ha-floorplan
 
+binary_sensor:
+  - platform: mqtt
+    state_topic: dummy/floorplan/sensor
+    name: Floorplan
+
 panel_custom:
   - name: floorplan
     sidebar_title: Floorplan
