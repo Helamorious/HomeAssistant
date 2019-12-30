@@ -56,7 +56,7 @@ image_processing:
       # Configure the tensorflow learning data
       graph: /config/tensorflow/frozen_inference_graph.pb
       categories:
-        - face
+        - person
 
 automation:
 # DOORBELL PRESS
