@@ -34,8 +34,7 @@ automation:
           - light.lounge
           - light.office
       - service: scene.turn_on
-        data:
-          scene: scene.theater_dim
+        entity_id: scene.theater_dim
 
 # When Plex is stopped/paused, set the scene back to the initial state.
   - id: theater_stopped
@@ -52,6 +51,5 @@ automation:
         to: 'paused'
     action:
       - service: scene.turn_on
-        data:
-          entity_id: scene.temp_pre_theater_playing
+        entity_id: scene.temp_pre_theater_playing
 
