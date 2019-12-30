@@ -121,4 +121,4 @@ automation:
         message: '[NOTIFY] Person Detected.'
         data_template:
           images:
-          - {{ "/config/tmp/{{trigger.event_data.entity_id.split('.')[1]}}_latest.jpg" }}
+          - "/config/tmp/{{trigger.event_data.entity_id.split('.')[1]}}_latest.jpg"
