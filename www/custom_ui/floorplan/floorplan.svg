@@ -1068,7 +1068,7 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <use
-       id="light_lounge"
+       id="light.lounge"
        style="fill:#000000;stroke:none"
        xlink:href="#ic_lightbulb_outline_24px"
        x="0"
@@ -1088,7 +1088,7 @@
        x="0"
        xlink:href="#ic_lightbulb_outline_24px"
        style="fill:#000000;stroke:none"
-       id="light_office"
+       id="light.office"
        inkscape:label="#light,#hue">
       <title
          id="title14242">Office Light</title>
@@ -1102,7 +1102,7 @@
        x="0"
        xlink:href="#ic_lightbulb_outline_24px"
        style="fill:#000000;stroke:none"
-       id="light_bedroom1">
+       id="light.bedroom">
       <title
          id="title14248">Master Bedroom Light</title>
     </use>
@@ -1115,7 +1115,7 @@
        x="0"
        xlink:href="#ic_lightbulb_outline_24px"
        style="fill:#000000;stroke:none"
-       id="light_workbench">
+       id="switch.garage_workbench_light_relay">
       <title
          id="title14252">Garage Workbench Light</title>
     </use>
