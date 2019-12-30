@@ -48,10 +48,10 @@ image_processing:
     source:
       - entity_id: camera.front_door_lastvideo
     file_out:
-      # Generate a still image and overwrite latest.jpg when a person is detected
-      - "/config/tmp/front_door.jpg"
+      # Generate a still image and overwrite latest when a person is detected
+      - "/config/tmp/{{ camera_entity.split('.')[1] }}_latest.jpg"
       # Note; in future we may wish to keep a record of all detected people...
-      #- "/config/www/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
+      - "/config/tmp/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
     model:
       # Configure the tensorflow learning data
       graph: /config/tensorflow/frozen_inference_graph.pb
@@ -112,13 +112,13 @@ automation:
   trigger:
     - platform: event
       event_type: image_processing.detect_face
-      event_data:
-        entity_id: camera.front_door_lastvideo
+#      event_data:
+#        entity_id: camera.front_door_lastvideo
   action:
     - service: notify.discord
       data:
         target: !secret discord_channel
         message: '[NOTIFY] Person Detected.'
-        data:
+        data_template:
           images:
-          - "/config/tmp/front_door.jpg"
+          - {{ "/config/tmp/{{trigger.event_data.entity_id.split('.')[1]}}_latest.jpg" }}
