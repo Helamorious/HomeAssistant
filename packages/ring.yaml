@@ -77,6 +77,10 @@ automation:
       from: 'off'
       to: 'on'
   action:
+    - service: system_log.write
+      data_template:
+        message: "{{trigger.event_data.entity_id}} triggered."
+        level: info
     - service: notify.discord
       data:
         target: !secret discord_channel
@@ -100,9 +104,13 @@ automation:
       event_data:
         filename: front_door.mp4
   action:
+    - service: system_log.write
+      data_template:
+        message: "{{trigger.event_data.entity_id}} triggered."
+        level: info
     - service: image_processing.scan
       data:
-        entity_id: camera.front_door_lastvideo
+        entity_id: image_processing.tensorflow_front_door_lastvideo
 
 # DOORBELL PRESS - Part 3 of 3
 # When TensorFlow identifies a person within the video
@@ -113,12 +121,13 @@ automation:
   trigger:
     - platform: event
       event_type: image_processing.detect_face
-#      event_data:
-#        entity_id: image_processing.tensorflow_front_door_lastvideo
+      event_data:
+        entity_id: image_processing.tensorflow_front_door_lastvideo
   action:
     - service: system_log.write
       data_template:
         message: "{{trigger.event_data.entity_id}} triggered."
+        level: info
     - service: notify.discord
       data:
         target: !secret discord_channel
