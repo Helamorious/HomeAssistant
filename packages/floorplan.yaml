@@ -2,6 +2,7 @@
 #   https://github.com/pkozul/ha-floorplan
 
 binary_sensor:
+  # Create a dummy object to bind floorplan
   - platform: mqtt
     state_topic: dummy/floorplan/sensor
     name: Floorplan
