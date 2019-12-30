@@ -114,6 +114,7 @@ automation:
   trigger:
     - platform: event
       event_type: image_processing.detect_persons
+      data:
         entity_id: image_processing.tensorflow_front_door_lastvideo
   action:
     - service: notify.discord
