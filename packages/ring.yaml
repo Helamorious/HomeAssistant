@@ -111,7 +111,7 @@ automation:
   initial_state: on
   trigger:
     - platform: event
-      event_type: image_processing.detect_face
+      event_type: image_processing.detect_persons
 #      event_data:
 #        entity_id: camera.front_door_lastvideo
   action:
