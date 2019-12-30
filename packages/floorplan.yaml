@@ -1,0 +1,32 @@
+# Floorplan custom UI enhancements 
+#   https://github.com/pkozul/ha-floorplan
+
+panel_custom:
+  - name: floorplan
+    sidebar_title: Floorplan
+    sidebar_icon: mdi:home
+    url_path: floorplan
+    
+    # Custom Panel content
+    config:
+      name: Hilton
+      image: /local/custom_ui/floorplan/floorplan.svg
+      stylesheet: /local/custom_ui/floorplan/floorplan.css
+
+      warnings:
+      date_format: DD-MMM-YYYY
+
+      groups:
+        - name: Lights
+          entities:
+            - light.office
+            - light.lounge
+            - light.bedroom
+            - switch.garage_workbench_light_relay
+          states:
+            - state: 'on'
+              class: 'light-on'
+            - state: 'off'
+              class: 'light-off'
+          action:
+            service: toggle
