@@ -26,6 +26,8 @@ camera:
   - platform: ffmpeg
     name: front_door_lastvideo
     input: "/config/tmp/front_door.mp4"
+    # The Ring camera takes a couple of seconds to fade in
+    extra_arguments: "-ss 00:02"
     
 binary_sensor:
   # Import Ring binary sensors
