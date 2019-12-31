@@ -78,6 +78,9 @@ map:
 # https://www.home-assistant.io/integrations/mobile_app/
 mobile_app:
 
+# MQTT
+mqtt: !include config/mqtt.yaml
+
 # Notify
 notify: !include config/discord.yaml
 
