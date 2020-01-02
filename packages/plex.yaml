@@ -33,11 +33,6 @@ automation:
           snapshot_entities:
           - light.lounge
           - light.office
-          entities:
-            light.lounge:
-              transition: 3
-            light.office:
-              transition: 3
       - service: scene.turn_on
         entity_id: scene.theater_dim
 
