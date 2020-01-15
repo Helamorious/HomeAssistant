@@ -14,7 +14,7 @@ sensor:
         friendly_name: 'Circadian Light - Length of Day Factor'
         value_template: >
           {% if is_state('sun.sun', 'above_horizon') %}
-            {% set daylength = ((as_timestamp(states.sun.sun.attributes.next_setting) - as_timestamp(states.sun.sun.attributes.next_rising)) / 3600) +24 %}
+            {% set daylength = ((as_timestamp(states.sun.sun.attributes.next_setting) - as_timestamp(states.sun.sun.attributes.next_rising)) / 3600) %}
             {{ (daylength*-0.0063616)+0.11131 }}
           {% endif %}
   - platform: template
