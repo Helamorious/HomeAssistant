@@ -16,6 +16,7 @@ deps
 downloads
 secrets.yaml
 home-assistant.*
+tensorflow
 *.db
 tmp
 frozen_inference_graph.pb
