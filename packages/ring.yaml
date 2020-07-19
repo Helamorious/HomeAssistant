@@ -20,8 +20,6 @@ ring:
   password: !secret ring_pass
 
 camera:
-  # Import Ring camera devices
-  - platform: ring
   # Create a camera instance for processing a local file
   - platform: ffmpeg
     name: front_door_lastvideo
@@ -29,14 +27,6 @@ camera:
     # The Ring camera takes a couple of seconds to fade in
     extra_arguments: "-ss 00:03"
     
-binary_sensor:
-  # Import Ring binary sensors
-  - platform: ring
-
-sensor:
-  # Import Ring sensors
-  - platform: ring
-
 downloader:
   # Enable the downloader integration
   #  This is used to download cloud video files in the DOORBELL PRESS automation flows
