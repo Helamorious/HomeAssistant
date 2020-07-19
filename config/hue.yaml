@@ -1,4 +1,4 @@
 # https://www.home-assistant.io/integrations/hue/
 
 bridges:
-  - host: hue.hilton.local
+  - host: 192.168.3.128
