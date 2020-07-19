@@ -51,7 +51,7 @@ frontend:
 history:
 
 # HTTP
-http: !include config/http.yaml
+http:
 
 # Philips Hue
 hue: !include config/hue.yaml
