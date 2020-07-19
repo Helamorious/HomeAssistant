@@ -68,7 +68,7 @@ logbook:
 # Lovelace UI
 # https://www.home-assistant.io/lovelace/
 lovelace:
-  mode: yaml
+#  mode: yaml
 
 # Map
 # https://www.home-assistant.io/integrations/map/
