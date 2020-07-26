@@ -5,6 +5,9 @@
 __pycache__
 *.pyc
 
+# Ignore HACS
+custom_components/hacs/*
+
 # Ignore HomeAssistant Userdata
 .cloud
 .storage
