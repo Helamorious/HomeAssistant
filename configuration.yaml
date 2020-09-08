@@ -54,7 +54,9 @@ history:
 http:
 
 # Philips Hue
-hue: !include config/hue.yaml
+# The 'hue' add-on is now depreciated; The Hue controller is added via the WebUI and 
+# the hub location and authentication is now stored in the token.
+# hue:
 
 # IOS
 # Depends on 'mobile_app', 'discovery'
