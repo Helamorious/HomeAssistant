@@ -109,6 +109,12 @@ sun:
 # https://www.home-assistant.io/integrations/system_health/
 system_health:
 
+# TP-Link Kasa
+# https://www.home-assistant.io/integrations/tplink/
+tplink:
+
+# Ubiquiti Protect
+
 # Updater
 # https://www.home-assistant.io/integrations/updater/
 updater:
