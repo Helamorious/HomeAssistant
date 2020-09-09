@@ -112,8 +112,7 @@ sun:
 system_health:
 
 # TP-Link Kasa
-# https://www.home-assistant.io/integrations/tplink/
-tplink:
+tplink: !include config/tplink.yaml
 
 # Ubiquiti Protect
 
