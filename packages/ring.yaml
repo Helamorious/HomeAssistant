@@ -46,9 +46,9 @@ image_processing:
       - "/config/tmp/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
     model:
       # Configure the tensorflow learning data
-      graph: /config/tensorflow/frozen_inference_graph.pb
-#      categories:
-#        - person
+      graph: /config/tensorflow/model/frozen_inference_graph.pb
+      categories:
+        - person
 
 automation:
 # DOORBELL PRESS
