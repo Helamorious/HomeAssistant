@@ -68,7 +68,7 @@ ios:
 logbook: 
 
 # Lovelace UI
-lovelace: !include config/lovelace/lovelace.yaml
+lovelace: !include lovelace/lovelace.yaml
 
 # Map
 # https://www.home-assistant.io/integrations/map/
