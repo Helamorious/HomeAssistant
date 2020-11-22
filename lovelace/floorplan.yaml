@@ -5,9 +5,9 @@
 #      stylesheet: /local/custom_ui/floorplan/floorplan.css
 #
 
-title: Floor Plan
+title: FloorPlan
 views:
   - path: floorplan
-    title: Floor Plan
+    title: FloorPlan
     cards:
       - !include /config/lovelace/tiles/tiles_floorplan.yaml
