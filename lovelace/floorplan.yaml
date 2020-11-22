@@ -25,4 +25,4 @@ views:
                 state: 'on'
         stylesheet: /local/floorplan/hilton/floorplan.css
         title: Hilton
-        type: 'custom:floorplan-card'
+        type: "custom:floorplan-card.js"
