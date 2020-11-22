@@ -10,19 +10,4 @@ views:
   - path: floorplan
     title: Floor Plan
     cards:
-      - config:
-        image: /local/floorplan/hilton/floorplan.svg
-        rules:
-          - entities:
-              - light.bedroom
-              - light.living_room
-              - light.master_bedroom
-              - light.office
-            states:
-              - class: 'light-off'
-                state: 'off'
-              - class: 'light-on'
-                state: 'on'
-        stylesheet: /local/floorplan/hilton/floorplan.css
-        title: Hilton
-        type: "custom:floorplan-card"
+      - !include /config/lovelace/tiles/tiles_floorplan.yaml
