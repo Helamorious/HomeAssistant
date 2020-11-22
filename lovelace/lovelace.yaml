@@ -8,6 +8,6 @@ dashboards:
   floorplan-yaml:
     title: FloorPlan
     mode: yaml
-    filename: /config/lovelace/floorplan.yaml
-    icon: mdi:floorplan
+    filename: /lovelace/floorplan.yaml
+    icon: mdi:floor-plan
     show_in_sidebar: true
