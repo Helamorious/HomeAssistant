@@ -69,7 +69,7 @@ logbook:
 
 # Lovelace UI
 # https://www.home-assistant.io/lovelace/
-lovelace: !include packages/floorplan.yaml
+lovelace: !include packages/lovelace/
 #  mode: yaml
 
 # Map
@@ -94,11 +94,6 @@ person:
 # Recorder
 # https://www.home-assistant.io/components/recorder/
 recorder:
-
-# Resources for Lovelace Floorplan
-resources:
-  - type: module
-    url: '/local/floorplan/floorplan-cad.js?v=1.1.14'
 
 # Script
 # https://www.home-assistant.io/integrations/script/
