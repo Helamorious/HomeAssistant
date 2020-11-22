@@ -7,10 +7,10 @@
 
 resources:
   - type: module
-    url: /local/floorplan/floorplan-cad.js?v=1.1.14
+    url: '/local/floorplan/floorplan-cad.js?v=1.1.14'
   - cards:
     - config:
-      image: /local/flooplan/hilton/floorplan.svg?v=1.1.14
+      image: '/local/flooplan/hilton/floorplan.svg?v=1.1.14'
       rules:
         - entities:
             - light.bedroom
@@ -22,7 +22,7 @@ resources:
               state: 'off'
             - class: 'light-on'
               state: 'on'
-      stylesheet: /local/floorplan/hilton/floorplan.css?v=1.1.14
+      stylesheet: '/local/floorplan/hilton/floorplan.css?v=1.1.14'
     title: Hilton
     type: 'custom:floorplan-card'
   icon: 'mdi:floor-plan'
