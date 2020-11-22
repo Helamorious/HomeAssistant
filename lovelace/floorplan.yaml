@@ -5,13 +5,13 @@
 #      stylesheet: /local/custom_ui/floorplan/floorplan.css
 #
 
-title: Floorplan
+title: Floor Plan
 views:
   - path: floorplan
-    title: Floorplan
+    title: Floor Plan
     cards:
       - config:
-        image: /local/flooplan/hilton/floorplan.svg
+        image: /local/floorplan/hilton/floorplan.svg
         rules:
           - entities:
               - light.bedroom
@@ -25,4 +25,4 @@ views:
                 state: 'on'
         stylesheet: /local/floorplan/hilton/floorplan.css
         title: Hilton
-        type: "custom:floorplan-card.js"
+        type: "custom:floorplan-card"
