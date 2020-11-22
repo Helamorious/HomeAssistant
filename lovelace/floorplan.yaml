@@ -11,7 +11,7 @@ views:
     title: Floorplan
     cards:
       - config:
-        image: '/local/flooplan/hilton/floorplan.svg?v=1.1.14'
+        image: /local/flooplan/hilton/floorplan.svg
         rules:
           - entities:
               - light.bedroom
@@ -23,6 +23,6 @@ views:
                 state: 'off'
               - class: 'light-on'
                 state: 'on'
-        stylesheet: '/local/floorplan/hilton/floorplan.css?v=1.1.14'
-      title: Hilton
-      type: 'custom:floorplan-card'
+        stylesheet: /local/floorplan/hilton/floorplan.css
+        title: Hilton
+        type: 'custom:floorplan-card'

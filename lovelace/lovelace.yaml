@@ -1,7 +1,7 @@
 mode: storage
 
 resources:
-  - url: /local/floorplan/floorplan-card.js?v=1.1.14
+  - url: /local/floorplan/floorplan-card.js
     type: module
 
 dashboards:
