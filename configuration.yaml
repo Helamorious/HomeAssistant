@@ -67,11 +67,6 @@ ios:
 # Note: All entries need to also be defined in recorder.yaml
 logbook: 
 
-# Lovelace UI
-# https://www.home-assistant.io/lovelace/
-lovelace:
-#  mode: yaml
-
 # Map
 # https://www.home-assistant.io/integrations/map/
 map:
