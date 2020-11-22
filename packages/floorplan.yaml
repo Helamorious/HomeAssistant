@@ -5,22 +5,22 @@
 #      stylesheet: /local/custom_ui/floorplan/floorplan.css
 #
 - cards:
-  - config:
-    image: "/local/flooplan/hilton/floorplan.svg?v=1.1.14"
-    rules:
-      - entities:
-          - light.bedroom
-          - light.living_room
-          - light.master_bedroom
-          - light.office
-        states:
-          - class: 'light-off'
-            state: 'off'
-          - class: 'light-on'
-            state: 'on'
-    stylesheet: "/local/floorplan/hilton/floorplan.css?v=1.1.14"
-  title: Hilton
-  type: 'custom:floorplan-card'
-icon: 'mdi:floor-plan'
-id: system
-title: Hilton Floorplan
+    - config:
+        image: "/local/flooplan/hilton/floorplan.svg?v=1.1.14"
+        rules:
+          - entities:
+              - light.bedroom
+              - light.living_room
+              - light.master_bedroom
+              - light.office
+            states:
+              - class: 'light-off'
+                state: 'off'
+              - class: 'light-on'
+                state: 'on'
+        stylesheet: "/local/floorplan/hilton/floorplan.css?v=1.1.14"
+      title: Hilton
+      type: 'custom:floorplan-card'
+    icon: 'mdi:floor-plan'
+    id: system
+    title: Hilton Floorplan
