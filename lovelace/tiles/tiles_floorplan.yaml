@@ -1,0 +1,15 @@
+- title: Floorplan
+  type: "custom:floorplan-card"
+  image: /local/floorplan/hilton/floorplan.svg
+  stylesheet: /local/floorplan/hilton/floorplan.css
+  rules:
+    - entities:
+      - light.bedroom
+      - light.living_room
+      - light.master_bedroom
+      - light.office
+    states:
+      - class: 'light-off'
+        state: 'off'
+      - class: 'light-on'
+        state: 'on'
