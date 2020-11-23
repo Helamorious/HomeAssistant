@@ -9,6 +9,7 @@ title: FloorPlan
 views:
   - path: floorplan
     title: FloorPlan
+    panel: true
     cards:
       - title: Floorplan
         type: 'custom:floorplan-card'
@@ -16,10 +17,10 @@ views:
         stylesheet: /local/floorplan/hilton/floorplan.css
         rules:
           - entities:
-              - light.bedroom
               - light.living_room
               - light.master_bedroom
               - light.office
+              - binary_sensor.garage_workbench_light_switch
             states:
               - class: 'light-off'
                 state: 'off'
