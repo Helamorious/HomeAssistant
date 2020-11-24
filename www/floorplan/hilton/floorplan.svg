@@ -90,19 +90,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142137"
-     inkscape:cx="408.41701"
-     inkscape:cy="442.19294"
+     inkscape:zoom="2"
+     inkscape:cx="617.50508"
+     inkscape:cy="488.01426"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer11"
+     inkscape:current-layer="layer7"
      showgrid="false"
      width="1024mm"
      units="px"
-     inkscape:window-width="2222"
-     inkscape:window-height="1378"
-     inkscape:window-x="1"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-width="3440"
+     inkscape:window-height="1387"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      showguides="false"
      inkscape:guide-bbox="true">
     <sodipodi:guide
@@ -427,7 +427,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Walls"
-     style="display:inline;opacity:1">
+     style="display:inline;opacity:1"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#b3b3b3;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 96.545745,64.67424 1.887799,-1.72473"
@@ -748,10 +749,9 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Windows"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 79.006472,20.117784 17.274872,0.006"
        id="window_lounge_e"
        inkscape:connector-curvature="0"
@@ -761,7 +761,7 @@
          id="title4622">Lounge East Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="M 23.318134,45.61794 17.782893,41.72666"
        id="window_lounge_nw"
        inkscape:connector-curvature="0"
@@ -771,7 +771,7 @@
          id="title4626">Lounge North-West Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="M 17.392425,40.99932 V 29.745156"
        id="window_lounge_n"
        inkscape:connector-curvature="0"
@@ -781,7 +781,7 @@
          id="title4630">Lounge North Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 23.281267,24.690706 -5.439685,4.40774"
        id="window_lounge_ne"
        inkscape:connector-curvature="0"
@@ -791,7 +791,7 @@
          id="title4634">Lounge North-East Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 116.63906,20.123746 h 18.023"
        id="window_kitchen"
        inkscape:connector-curvature="0"
@@ -801,7 +801,7 @@
          id="title4654">Kitchen Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 154.59935,20.123746 h 18.30586"
        id="window_bedroom3"
        inkscape:connector-curvature="0"
@@ -811,7 +811,7 @@
          id="title4658">Bedroom 3 Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 202.09206,20.123746 h 5.70508"
        id="window_ensuite"
        inkscape:connector-curvature="0"
@@ -821,7 +821,7 @@
          id="title4662">Ensuite Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 225.46008,20.123746 h 22.86874"
        id="window_bedroom1_e"
        inkscape:connector-curvature="0"
@@ -831,7 +831,7 @@
          id="title4666">Master Bedroom East Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="M 251.49526,30.345578 V 45.39943"
        id="window_bedroom1_s"
        inkscape:connector-curvature="0"
@@ -841,7 +841,7 @@
          id="title4670">Master Bedroom South Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 251.49526,70.52212 v 12.4909"
        id="window_bedroom2"
        inkscape:connector-curvature="0"
@@ -851,7 +851,7 @@
          id="title4674">Bedroom 2 Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 197.41224,91.28426 h 4.85003"
        id="window_laundry"
        inkscape:connector-curvature="0"
@@ -861,7 +861,7 @@
          id="title4678">Laundry Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 182.50988,91.28426 h 5.74116"
        id="window_toilet"
        inkscape:connector-curvature="0"
@@ -871,7 +871,7 @@
          id="title4682">Toilet Window</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.84115523"
        d="m 162.75182,91.28426 h 11.75057"
        id="window_bathroom"
        inkscape:connector-curvature="0"
@@ -885,7 +885,8 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="DoorMarkers"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ececec;stroke-width:0.09826369;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path12220"
@@ -1098,7 +1099,8 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="Furnature"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect12298"
@@ -1925,7 +1927,7 @@
      inkscape:label="Doors"
      style="display:inline">
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 34.806483,56.89369 V 63.3181"
        id="binary_sensor.door_and_window_sensor_52ec"
        inkscape:connector-curvature="0"
@@ -1935,7 +1937,7 @@
          id="title4697">Front Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 86.18802,64.67424 h 7.534778"
        id="binary_sensor.door_and_window_sensor_51f5"
        inkscape:connector-curvature="0"
@@ -1945,7 +1947,7 @@
          id="title4701">Garage Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 121.19571,91.28426 h 14.17174"
        id="binary_sensor.door_and_window_sensor_5273"
        inkscape:connector-curvature="0"
@@ -1955,7 +1957,7 @@
          id="title4705">Dining Room Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 204.2418,91.28426 h 6.5567"
        id="binary_sensor.door_and_window_sensor_a458"
        inkscape:connector-curvature="0"
@@ -1965,7 +1967,7 @@
          id="title4709">Laundry External Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 174.07145,55.20288 h 7.88695"
        id="door_bedroom3"
        inkscape:connector-curvature="0"
@@ -1975,7 +1977,7 @@
          id="title4729">Bedroom 2 Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.44285691;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.44285691;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 211.85066,55.20288 h 6.04772"
        id="door_bedroom_1"
        inkscape:connector-curvature="0"
@@ -1985,7 +1987,7 @@
          id="title4733">Master Bedroom Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.51599002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.51599002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 204.28042,64.67424 h 6.98074"
        id="door_laundry_int"
        inkscape:connector-curvature="0"
@@ -1995,7 +1997,7 @@
          id="title4737">Laundry Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 209.43472,34.59389 v 6.42533"
        id="door_ensuite"
        inkscape:connector-curvature="0"
@@ -2005,7 +2007,7 @@
          id="title4741">Ensuite Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 209.43472,44.31665 v 6.34347"
        id="door_robe"
        inkscape:connector-curvature="0"
@@ -2015,7 +2017,7 @@
          id="title4745">Walk in Robe Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 219.65879,57.12054 v 5.85479"
        id="door_bedroom2"
        inkscape:connector-curvature="0"
@@ -2025,7 +2027,7 @@
          id="title4749">Bedroom 2 Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.43295968;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.43295968;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 178.16986,81.12802 h 6.25578"
        id="door_toilet"
        inkscape:connector-curvature="0"
@@ -2035,7 +2037,7 @@
          id="title4753">Toilet Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.57805336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.57805336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 176.32571,73.18678 v 6.346943"
        id="door_bathroom"
        inkscape:connector-curvature="0"
@@ -2045,7 +2047,7 @@
          id="title4757">Bathroom Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 34.806483,94.07882 V 115.3168"
        id="door_garage_nw"
        inkscape:connector-curvature="0"
@@ -2055,7 +2057,7 @@
          id="title4761">Garage North West Roller Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 34.806483,66.85198 V 87.83331"
        id="garage_door_ne"
        inkscape:connector-curvature="0"
@@ -2065,7 +2067,7 @@
          id="title4765">Garage North-East Roller Door</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 96.545745,94.04857 v 21.13276"
        id="door_garage_s"
        inkscape:connector-curvature="0"
@@ -2075,7 +2077,7 @@
          id="title4769">Garage South Rollerdoor</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#10e7e7;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 114.88712,43.17074 5.77636,5.08062"
        id="door_pantry"
        inkscape:connector-curvature="0"
@@ -2087,10 +2089,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer11"
-     inkscape:label="NewLights">
+     inkscape:label="Lights"
+     sodipodi:insensitive="true">
     <ellipse
        style="opacity:1;vector-effect:none;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.07637649;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       id="path12523"
+       id="light.office"
        cx="51.554657"
        cy="37.519749"
        rx="1.8791373"
@@ -2242,7 +2245,7 @@
        inkscape:label="Garage West Light" />
     <rect
        style="opacity:1;vector-effect:none;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       id="binary_sensor.garage_workbench_light_switch_"
+       id="binary_sensor.garage_workbench_light_switch"
        width="14.155207"
        height="1.5213541"
        x="70.114578"
@@ -2298,103 +2301,48 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Other">
-    <image
-       y="33.662834"
-       x="107.70284"
+    <g
        id="switch.coffeemachine"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAEnFJREFU
-eJzt3dtW48qWRVGpGv//y6qH3ZyHJDH4ErcVs/fXqrNTsuVYQyEw53Vd18EQ53nOPgQAQn0d9/83
-6TjiGP4AzPR1DgmAAQx/AFbweR4JgM4MfwBWcptLAqAjwx+AFZ3nKQAAIJEAAIBAAgAAAgkAAAgk
-AAAgkAAAgEACAAACCQAACCQAACCQAACAQAIAAAIJAAAI9DH7APjZdV2zDwGAxbT4Y3N2AAAgkAAA
-gEACAAACCQAACCQAACCQAACAQAIAAAIJAAAIJAAAIJAAAIBAAgAAAgkAAAgkAAAgkAAAgED+HDAA
-3T3z52v9GfQxBAAAzbT4O/X3/hvCoC0BAMBbWgz9Z/8dMfA+AQDA00YN/Uf+fTHwGgEAwENmD/17
-xMBr/BYAAL9adfh/dZ5nmWOdzQ4AAHdVHaa347YjcJ8dAAD+scud9A7n0IsdAAD+2HFg2g34nh0A
-AI7j2HP4f7bLrkYrAgCAqMGYdK4/EQAAwVLvihPP+SsBABAqfQimn78AAAiUPvxukl8HAQAQJnno
-fSf1MYgAAAiSOOgelfbaCACAEGkDjp8JAIAAhv9jkl4n3wQIsLnZQ+3Vb+CbddzneUZ8a6AAAKCp
-VsPz839ndAwkRIAAANjYyMHZc2DOiIHdI0AAAGxqxKCcMSBv/+bsRxvV+SFAgA3tOvxH//s7R4YA
-AOAp13VNH/43I45l1wgQAACb6TmwVhn8X616XCsTAAA8ZPUh2/P4dtwFEAAAG+k1qFYf/jcrPZ5Y
-nQAA4EcVB2qPY95tF0AAAGyix4CqOPxvKh/7CAIAYAOG/xg77QIIAAD+scvw3+U8ehAAAPxlt6HZ
-+nx22QUQAADF7TKQetotaloQAAD8YVDmEAAARGgZNzvsuggAgMJaDiJ3/1kEAAAxwz/lPB8hAADg
-BdUfAwgAgKKqD6BZ7AL8RwAAhDMQMwkAAAj0MfsAAJirwqOE1rsU13U1Oe/zPMvuoAgAAJb3eVhX
-Hbir8QgAgFIq7FhUIAAACkofgunn34IAAIBAAgCAkt7dBUj/WQIBAACBBAAABBIAAJTlhwFfJwAA
-KCv9Of47BAAABBIAABBIAAAQKf3nBwQAACV5/v8eAQBAOYb/+wQAQEHJAzD53FsSAACUYfi38zH7
-AACYK3GotvoBwMqvnR0AAAgkAADCpf86XCoBAFBU5e3nmQTPfwTA4lyoAGuqHmACAICYm42U83yE
-AAAorPpdKPMIAACO49j/7rjl+e0QXgKggN0/lACMJwA62qEQgfW1XGt2veHY9bzeIQCKcPECo1hv
-MggAAP6xUwS0PpdddncFQGe25oARdhlKrVk37xMAAHyr+vDscfw7hZYAKKb6BxLop8dwqrrmVD3u
-kQTAAK0/lC5sYKRqa06v493p7v84BEBZ1T6QwBi9hlSVNcfwf5wAGMTWHFDdeZ7LrjsrH9uqBEBx
-Lnjgq953q6utO72PZ8e7/+MQAEOlb80B44yIgNlrzwrHUNnH7AOgjduHYNdSBdY0Y+0ZOfR3XlPP
-a+ezW9SIi9fbChzH+B3CnmvPTufyrhavhR2ATX2+OFa+iIG+rusaOjhbrz2ztvgT1k07AJPMfG7l
-LYc8Kzwr/23tWeEYj6PGGtnitRIAE61ysQOPq7xkWnMeU+E9bvFe+i2AiSpcZMDf/OT53pLWZQEA
-8IKKEZA03F6R9voIgMnSLjjYiQjYR+LrIgAWkHjhAfNc12Xd+ST1tRAAi0i9AKG6irsAN9ad7NdA
-ACwk+UIE5khdd+yCCIDlpF+QwHhp607a+d4jABakTIHRUtaclPN8hABYmAsVGGnnm4+dz+1VAmBx
-LlhgtJ2G5U7n0poAKMAFDMxQfe2pfOwj+GuAhdwu5sq/dgTUU23tMfgfIwAKqvZhBPaw+tpj8D9H
-ABS2+ocR2NPnQetPm9clADbw9UMgCIBRRseAod+OANiQIABm6LH2GPj9CIAAMz9AFoC1eX8Eck/V
-r43d+TVAAAgkAAAgkAAAgEACAAACCQAACCQAACDQrwFwnqdfkwGAzfzzPQD3hv07EeB3QQFgLX8C
-oOddvngAgLUs/02Ar8aDcACA+z6OY8+vwrTrAAD3few4/N9l1wGA3S3/CKASuw4AVCEAFiEeABhJ
-AGzAIwsAniUAgn0XDqIAIIOvAuYvfigUIIMA4B++/hlgfwIAAAIJAO6yCwCwLwEAAIEEAAAEEgD8
-yGMAgD0JAAAI1CQAruvyBTIAUEjTbwJ8JwJsNQPAOMt8FfCr8SAcAOB5ywTAq+w6AMDzygfAO8QD
-AKmiA+AdHlkAUJkAGMyuAwArEACFPBsPrYJBeADsxxcBAUAgAQAAgQQAAAQSAAAQSAAAQCABAACB
-BAAABBIAEMr3O0A2AcDyDCqA9gQAAAQSAAAQSABQgscAbbV6Pd/541bAXAIAwogp4DgEAIWc52l4
-vcnrB9wIAMoxxF7jdQM++5h9APAKwwzgPQKgoNHDr8UPehnY+/EDgFCbAJjEQARgJgHwJoOcRO7+
-oT4BcBjiI1zX5XUGWMhWAWDArE0E7MHdP+xhuQAwIACgvy4BYIhzj12A2tz9wz6aBIAFnWeIgJoM
-f9iLbwJkCsOkFu8X7EcA8CMLP64B2JMAYJrrugyXxXl/YF8CgOkMmTV5X2BvAoC7Rg4Aw2Yt3g/Y
-33LfA0Cu29DxGwLzGPyQQwDwrZmDQAiMZ/BDHgHAX1YaBJ+PRQy0t9J7DYwnACgxCO4dozD4XYX3
-FxhPAGwkcaEffc4tgiPxfQLWIwAWYzgAMIIA6MQgB2BlH/4wy32GOAC72n4HwBAHgH99HEeNP89q
-kANAO392AEZ8+YohDgBr+OcRwCNfvmKQA0BtP/4MgEEPAHvy1wABIJAAAIBAAgAAAgkAAAgkAAAg
-kAAAgEACAAACCQB4wrvfjeG7NYBVCAAACCQA4Emv3sW7+wdWIgDgBc8Oc8MfWM2PfwsAuO+Rv6Bp
-8AOrEgDwJkMeqMgjAAAIJAAAIJAAAIBAAgAAAgkAAAgkAAAgkAAAgEACAAACCQAACCQAACCQAACA
-QAIAAAIJAAAIJAAAIJAAAIBAAgAAAgkAAAgkAAAgkAAAgEACAAACCQAACCQAACCQAACAQAIAAAIJ
-AAAIJAAAIJAAAIBAAgAAAgkAAAgkAAAgkAAAgEACAAACCQAACCQAACCQAACAQAIAAAIJAAAI9DH7
-AHjdeZ6zDwEecl3X7EMAvrADUJThTyWuV1iPACjIYkpFrltYiwAoxiJKZa5fWIcAKMTiyQ5cx7AG
-AQAAgQRAEe6aAGhJAABAIAFQgLt/AFoTAAAQSAAAQCABsDjb/wD0IAAAIJAAAIBAAgAAAgmAhXn+
-D0AvAgAAAn3MPgD6u67r7f9Gq92IFsfCXHamYA92AAAgkADYnDtuAL4jAAAgkABYlOesAPQkAAAg
-kAAAgEACAAACCQAACCQAACCQbwJc1HVdfhMAaOq3NcX3hmSxAwAQ4JEbCjcdWQQAwOaeGewiIIcA
-2JwPM2R7ZQ2wbmQQAACbemeQi4D9CQAACCQAAih5AL4SAAvzKznAq1qEv5uHvQmAED7IAHwmAAAg
-kAAIYhcAcrR4hOgx5N4EwOJW+QCuchwAtCEAwtgFAOA4BEAkEQAZ3tm5s+u3PwFQQI8PogiADK+s
-H4Z/BgEQTARAhmcGuuGfQwAU0etDKQJ4huulruu6flxHfvu/s5+P2QfA467r6rIA3/6bIz7853la
-ZGAinz9u7ADwh7s7gBwCoJje9X6epxAACOARAN/6HAG2DGnJ9QRrsANQ0OgF1K4Ax+EREexGABRV
-+S7KIAGYTwAUVjkCAJhLAABAIAFQnF0ARmj12Mb1CusQABuouKj6OQCAuQTAJipGAADzCICNVIsA
-uwA1eJ9gTwJgM/6gB6tyXcJaBMCmLLYA/EQAbKxCBNheXpv3B/YlADbnkQArcA3CegRAiJUXYHeZ
-a/K+wN4EQBC7AQDcCIBAK4aAu821tHw/VrvWgP98zD4A5vm8MBvA3LgWIIMdAI7j+N+uwMy7NYMH
-YBw7APzjpwjoPaTP87RlPFHr99d7CesSADzluwXdnTtAPR4B8LbWd3mCYg53/5BFALAkETCW1xvy
-CACacLdXV4/h73qA9QkAluWuFKAfAUAzPe76REBf7v4hlwBgeSKgD68rZBMANNXr7s+waqvX6+nu
-H+oQAJQhAtow/IHjEAB00HMQiID3eP2AG98ESBfXdXUbNr4u+DU9h7/3o4bfrgHvYxY7AHRjJ2Ad
-hj+PXAM+V1kEAGVZrB7jdeKZa8D1kkMA0FXvu0OL1c96vz7u/tf3yjXgc5VBANCdCBjvPE/Dn7eu
-AZ+r/QkAhhgRARas/4x4HQx/qE8AsJX0CEg/f+BxAoBhRt01Ju4GjDxnd/81tLge0j5HaQQAQ40c
-HgmL1+jYMfxhHwKA4UZHwK4hMPq8DH/YiwBgitHDZKcQmHEuhn89Ld4z7/vefBUw0/T8uuB7bv9e
-tYVtZrxUe62AxwgAppoRAcfx90BdecDN3rVY+bUB3iMAmG5WBNysFgOzh/7NCq8F73nns+X9358A
-YAmzI+Dm6zGMWARXOO+vLP77eOWz5f3PIABYxioR8Nl3x/PO4rja+X3H4r+fZz5b3v8cAoClrBgB
-X61+fO+w+O/r9t7eu36993kEAMv5baGiPYt/Du81N74HgGVZqMbwOkMmAcDSDKe+vL6QyyMAlueR
-QHsGP2AHgDIMrTa8jsBx2AGgGLsBrzP4gc/sAFDSdV0G2hO8VsBXAoDSDLafCSXgHo8AKM9jgX8Z
-+sBvBADbEAIGP/A4AcB2Pg/BlBgw+IFnCQC2tvOugKEPvEMAEGGXXQFDH2hFABCnWgwY+kAPAoBo
-X4frCkFg4AMjCAD45Lvh2zMKDHtgFgEAvzCkgR35JkAACCQAACCQAACAQAIAAAIJAAAIJAAAIJAA
-AIBAAgAAAgkAAAgkAAAgkAAAgEACAAACCQAACCQAACCQAACAQB+zD4D+zvOcfQjAAn5bC67rGnQk
-rEAAbMjAB756ZF04z1MEBBEAGzDwgZ88s0aIgBx+BqCw8zwNf+BHr6wR1pUMAqAggx94xDvrhDVm
-fx4BFOIDCUArAqAAgx+A1jwCWJzhD7yixdph/dmbAFiYDx8AvXgEsCCDH4De7AAsxvAHWmjxu/y+
-D2BvAmAhhj8AowiARRj+AIwkABZg+AM9vLOFb/t/fwJgMsMf6OmVQW74ZxAAAJt7ZqAb/jn8GuBE
-7v6BUW6D/d66Y/DnEQCTzBz+PujwP2kh7vPPjQCYYPSC4wMPwFcCYFOGPgA/EQCD9b77N/gBeIQA
-2ITBD8Az/BrgQL3u/g1/AJ4lAIoz/AF4hQAYpMfdv+EPwKsEQFGGPwDvEAADtL77N/wBeJcAKMbw
-B6AFAQAAgQRAZy23/939A9CKAACAQAKgCHf/ALQkADpK+zOjANQhAApw9w9AawIAAAIJAAAIJAAA
-IJAAWJzn/wD0IAAAIJAAAIBAAgAAAgkAAAgkAAAgkAAAgEACAAACCQAACCQAACCQAACAQAIAAAIJ
-AAAIJAAAIJAAAIBAAgAAAgkAAAgkAAAgkAAAgEACAAACCQAACCQAACCQAACAQAIAAAIJACDadV1T
-//cwiwAAgEACAIj36l28u38qEwAAx/PD3PCnuo/ZBwCwittQP8/z1/8fqE4AAHxhyJPAIwAACCQA
-ACCQAACAQAIAAAIJAAAIJAAAIJAAAIBAAgAAAgkAAAgkAAAgkAAAgEACAAACCQAACCQAACCQPwe8
-uJ/+LjkAvMoOAAAEEgAAEEgAAEAgAQAAgQQAAAQSAAAQSAAAQCABAACBBAAABBIAABBIAABAIAEA
-AIEEQEfXdc0+BAD4x3VdAgAAEgmAzuwCALCS21z6mHwcEW4v9nmek48EgFRfb0gFwEBCAIDR7u1E
-C4AJPBYAYDY/AwAAgQQAAAQSAAAQSAAAQCABAACBBAAABBIAABBIAABAIAEAAIEEAAAEEgAAEEgA
-AEAgAQAAgQQAAATy54CLOs9z9iG8zJ9DBkayXn7vvKzGZVS+iO9x+QE9WC9/5xFAETtezMex73kB
-8+y6rpzn2fTcBEABu17MN7ufHzCO9eRxAmBxKRdzynkC/aSsI63OUwAAQDEtIkAALCylZgEYTwCw
-DMEDvMr68TwBAACBBAAABBIAAJTnS8WeJwBYhg8wwDgCYGEGIgDfaTEfBAAAW3DT9BwBsLiUCzrl
-PAHe1Wq9FAAF7D4cdz8/YJzd15OW5+fPARez05dduPSAnnZaL4+j/Zr5/yE7YvnFqJIsAAAAAElF
-TkSuQmCC
-"
-       preserveAspectRatio="none"
-       height="7.9093003"
-       width="7.601151"
-       inkscape:label="#PowerSwitch"
-       sodipodi:insensitive="true">
-      <title
-         id="title12077">Coffee Machine</title>
-    </image>
+       inkscape:label="Coffee Machine">
+      <circle
+         r="1.8942726"
+         cy="39.684525"
+         cx="109.79765"
+         id="path12577"
+         style="opacity:1;vector-effect:none;fill:#1a1a1a;fill-opacity:1;stroke:#333333;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+      <rect
+         ry="0.0082682287"
+         rx="3.4994056"
+         y="38.333973"
+         x="109.59303"
+         height="1.0932993"
+         width="0.45602858"
+         id="rect12585"
+         style="opacity:1;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+      <rect
+         inkscape:transform-center-y="-0.20462823"
+         inkscape:transform-center-x="-0.22216779"
+         transform="rotate(-42.710781)"
+         style="opacity:1;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect12587"
+         width="0.45602858"
+         height="1.0932993"
+         x="53.64407"
+         y="104.174"
+         rx="3.4994056"
+         ry="0.014022583" />
+      <rect
+         ry="0"
+         rx="3.4994056"
+         y="-53.088017"
+         x="103.43643"
+         height="1.0932993"
+         width="0.45602858"
+         id="rect12589"
+         style="opacity:1;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         transform="rotate(47.205313)"
+         inkscape:transform-center-x="-0.20495373"
+         inkscape:transform-center-y="0.22186701" />
+    </g>
   </g>
 </svg>
