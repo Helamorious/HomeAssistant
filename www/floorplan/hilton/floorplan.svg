@@ -91,10 +91,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="617.50508"
-     inkscape:cy="488.01426"
+     inkscape:cx="74.527667"
+     inkscape:cy="592.93967"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer1"
      showgrid="false"
      width="1024mm"
      units="px"
@@ -280,8 +280,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-93.800041)"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:0.08040203;stroke:none;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 106.90242,113.92379 v 35.07913 l -10.356675,9.47136 H 34.806483 v -11.95531 l -11.091684,1e-5 v -6.81537 l -6.322374,-4.45338 v -11.98754 l 6.322374,-5.12173 v -4.21717 z"
@@ -2345,4 +2344,8 @@
          inkscape:transform-center-y="0.22186701" />
     </g>
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="Sensors" />
 </svg>

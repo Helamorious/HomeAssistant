@@ -26,3 +26,13 @@ views:
                 state: 'off'
               - class: 'light-on'
                 state: 'on'
+          - entities:
+              - binary_sensor.door_and_window_sensor_52ec
+              - binary_sensor.door_and_window_sensor_51f5
+              - binary_sensor.door_and_window_sensor_5273
+              - binary_sensor.door_and_window_sensor_a458
+            states:
+              - class: 'door-closed'
+                state: on
+              - class: 'door-open'
+                state: off

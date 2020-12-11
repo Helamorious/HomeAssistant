@@ -1,8 +1,10 @@
 mode: storage
 
-resources:
-  - url: /local/floorplan/floorplan-card.js
-    type: module
+# Primary UI is running in Storage mode;
+#  Resources are defined in the UI.
+#resources:
+#  - url: /local/floorplan/floorplan-card.js
+#    type: module
 
 dashboards:
   floorplan-yaml:
