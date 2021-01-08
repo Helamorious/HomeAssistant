@@ -8,8 +8,8 @@
 
 /* Doors */
 .door-open {
-  fill: #ff0202 !important;
+  stroke: #ff0202 !important;
 }
 .door-closed {
-  fill: #2b8319 !important;
+  stroke: #2b8319 !important;
 }
