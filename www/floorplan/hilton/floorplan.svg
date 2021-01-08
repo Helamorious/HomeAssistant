@@ -1928,7 +1928,7 @@
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 34.806483,56.89369 V 63.3181"
-       id="binary_sensor.door_and_window_sensor_52ec"
+       id="binary_sensor.front_door_sensor"
        inkscape:connector-curvature="0"
        inkscape:label="#door"
        sodipodi:nodetypes="cc">
@@ -1938,7 +1938,7 @@
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 86.18802,64.67424 h 7.534778"
-       id="binary_sensor.door_and_window_sensor_51f5"
+       id="binary_sensor.garage_door_sensor"
        inkscape:connector-curvature="0"
        inkscape:label="#door"
        sodipodi:nodetypes="cc">
