@@ -30,6 +30,6 @@ views:
               - binary_sensor.front_door_sensor
             states:
               - class: 'door-closed'
-                state: on
-
-                state: off
+                state: 'off'
+              - class: 'door-open'
+                state: 'on'
