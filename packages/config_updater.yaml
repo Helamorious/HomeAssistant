@@ -28,9 +28,9 @@ automation:
       value_template: "{{ state_attr('sensor.helamorious_homeassistant','last_build_id') != state('input_text.current_build_id') }}"
   # If its a successful build
   condition:
-    - condition: state
-      entitiy_id: "sensor.helamorious_homeassistant_last_build_state"
-      state: "passed"
+    condition: state
+    entitiy_id: "sensor.helamorious_homeassistant_last_build_state"
+    state: "passed"
   action:
     # Run these actions in order...
     sequence:
