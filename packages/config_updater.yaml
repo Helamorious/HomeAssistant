@@ -4,7 +4,7 @@
 sensor:
   - platform: travisci
     api_key: !secret travisci_access_token
-    repository: HomeAssistant
+    repository: Helamorious\HomeAssistant
 
 # Create a item to hold the value of the current version
 input_text:
