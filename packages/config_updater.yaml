@@ -15,6 +15,7 @@ sensor:
 # Create a item to hold the value of the current version
 input_text:
   current_build_id:
+    initial: "default"
 
 # The Shell Command to update GIT
 shell_command:
@@ -34,7 +35,7 @@ automation:
     # Run these actions in order...
     sequence:
       # Update our value
-      - service: input_text.current_build_id
+      - service: input_text.set_value
         target:
           entity_id: input_text.current_build_id
         data:
