@@ -7,19 +7,19 @@ binary_sensor:
       office_illumination:
         friendly_name: "Office Illumination"
         value_template: >-
-          {{state(light.office_light)}}
+          {{is_state('light.office_light', 'on')}}
 
       lounge_room_illumination:
         friendly_name: "Lounge Room Illumination"
         value_template: >-
-          {{state(light.lounge_room)}}
+          {{is_state('light.lounge_room', 'on')}}
 
       master_bedroom_illumination:
         friendly_name: "Master Bedroom Illumination"
         value_template: >-
-          {{state(light.master_bedroom)}}
+          {{is_state('light.master_bedroom', 'on')}}
 
       garage_workbench_illumination:
         friendly_name: "Garage Workbench Illumination"
         value_template: >-
-          {{state(binary_switch.garage_workbench_light_relay)}}
+          {{is_state('binary_switch.garage_workbench_light_relay', 'on')}}
