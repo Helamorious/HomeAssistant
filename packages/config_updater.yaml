@@ -1,5 +1,11 @@
 # Keep the configuration up to date with the latest stable release
 
+# Note; when using travis-ci.com (instead of .org), need to fix the
+#  URI thats passed into travispy. This is done at:
+#    /usr/src/homeassistant/homeassistant/components/travisci/sensor.py
+#  By modifying line 65 to:
+#    travis = TravisPy.github_auth(token, uri='https://api.travis-ci.com')
+
 # Connect to TravisCI
 sensor:
   - platform: travisci
