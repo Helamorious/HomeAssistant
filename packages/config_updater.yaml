@@ -1,20 +1,37 @@
 # Keep the configuration up to date with the latest stable release
 
-# Monitor TravisCI for new builds
+# Connect to TravisCI
 sensor:
   - platform: travisci
     api_key: !secret travis_ci_access_token
     repository: Helamorious/HomeAssistant
 
-script:
-  config_updater:
-    sequence:
-      # Pull the latest configuration from Git
-      - alias: "GIT Pull"
-        action:
-          service: shell_command.git_pull
-      # Restart HomeAssistant
-      - alias: "Restart HA"
-        action: call-service
-          service: homeassistant.Restart
+# Create a item to hold the value of the current version
+input_text:
+  current_build_id:
 
+# The Shell Command to update GIT
+shell_command:
+  git_pull: 'git pull'
+
+automation:
+  # When the build ID doesn't match our current build
+  trigger:
+    - platform: template
+      value_template: {{ state_attr('travisci.last_build_id') != state_attr('input_text.current_build_id')}}
+  # If its a successful build
+  condition:
+    - condition: "{{state_attr(travisci.travisci_last_build_state == 'passed'}}"
+  action:
+    # Run these actions in order...
+    sequence:
+      # Update our value
+      - service: input_text.current_build_id
+        target:
+          entity_id: input_text.current_build_id
+        data:
+          value: "{{ state_attr('travisci.last_build_id') }}"
+      # Fetch the new config from GIT
+      - service: shell_command.git_pull
+      # Restart HomeAssistant
+      - service: homeassistant.restart
