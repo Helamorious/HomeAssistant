@@ -2,7 +2,7 @@
 
 # Kitchen
 binary_sensor:
-  - platform: data_template
+  - platform: template
     sensors:
       office_illumination:
         friendly_name: "Office Illumination"
