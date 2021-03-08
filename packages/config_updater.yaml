@@ -29,7 +29,7 @@ automation:
   # If its a successful build
   condition:
     - condition: state
-      entitiy_id: sensor.helamorious_homeassistant_last_build_state
+      entitiy_id: "sensor.helamorious_homeassistant_last_build_state"
       state: "passed"
   action:
     # Run these actions in order...
