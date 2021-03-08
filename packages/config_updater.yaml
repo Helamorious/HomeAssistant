@@ -1,0 +1,20 @@
+# Keep the configuration up to date with the latest stable release
+
+# Monitor TravisCI for new builds
+sensor:
+  - platform: travisci
+    api_key: !secret travis_ci_access_token
+    repository: Helamorious/HomeAssistant
+
+script:
+  config_updater:
+    sequence:
+      # Pull the latest configuration from Git
+      - alias: "GIT Pull"
+        action:
+          service: shell_command.git_pull
+      # Restart HomeAssistant
+      - alias: "Restart HA"
+        action: call-service
+          service: homeassistant.Restart
+
