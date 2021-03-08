@@ -4,7 +4,7 @@
 sensor:
   - platform: travisci
     api_key: !secret github_access_token
-    repository: Helamorious\HomeAssistant
+    repository: Helamorious/HomeAssistant
 
 # Create a item to hold the value of the current version
 input_text:
@@ -18,10 +18,10 @@ automation:
   # When the build ID doesn't match our current build
   trigger:
     - platform: template
-      value_template: "{{ state_attr('sensor.travisci', 'last_build_id') != state('input_text.current_build_id')}}"
+      value_template: "{{ state_attr('sensor.helamorious_homeassistant', 'last_build_id') != state('input_text.current_build_id')}}"
   # If its a successful build
   condition:
-    - condition: "{{state_attr('sensor.travisci', 'travisci_last_build_state') == 'passed'}}"
+    - condition: "{{state_attr('sensor.helamorious_homeassistant', 'last_build_state') == 'passed'}}"
   action:
     # Run these actions in order...
     sequence:
@@ -30,7 +30,7 @@ automation:
         target:
           entity_id: input_text.current_build_id
         data:
-          value: "{{ state_attr('sensor.travisci', 'last_build_id') }}"
+          value: "{{ state_attr('sensor.helamorious_homeassistant', 'last_build_id') }}"
       # Fetch the new config from GIT
       - service: shell_command.git_pull
       # Restart HomeAssistant
