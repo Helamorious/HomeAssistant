@@ -13,3 +13,11 @@
 .door-closed {
   stroke: #2b8319 !important;
 }
+
+/* Illumination */
+.room-light {
+  visibility: visible;
+}
+.room-dark {
+  visibility: hidden;
+}

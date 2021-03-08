@@ -22,6 +22,30 @@
   <defs
      id="defs2">
     <linearGradient
+       inkscape:collect="always"
+       id="linearGradient17029">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop17025" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:0;"
+         offset="1"
+         id="stop17027" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient16993">
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1;"
+         offset="0"
+         id="stop16989" />
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:0;"
+         offset="1"
+         id="stop16991" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient8145"
        osb:paint="solid">
       <stop
@@ -82,6 +106,72 @@
          d="m 2.38125,5.55625 c 0,0.1455208 0.1190625,0.2645833 0.2645833,0.2645833 H 3.7041667 C 3.8496875,5.8208333 3.96875,5.7017708 3.96875,5.55625 V 5.2916667 H 2.38125 Z M 3.175,0.52916667 c -1.0212917,0 -1.8520833,0.83079163 -1.8520833,1.85208333 0,0.6297083 0.3148541,1.1826875 0.79375,1.5187083 v 0.5979584 c 0,0.1455208 0.1190625,0.2645833 0.2645833,0.2645833 h 1.5875 c 0.1455208,0 0.2645833,-0.1190625 0.2645833,-0.2645833 V 3.8999583 c 0.4788959,-0.3360208 0.79375,-0.889 0.79375,-1.5187083 0,-1.0212917 -0.8307916,-1.85208333 -1.8520833,-1.85208333 z M 3.9290625,3.4660417 3.7041667,3.6247917 V 4.2333333 H 2.6458333 V 3.6247917 L 2.4209375,3.4660417 A 1.3221229,1.3221229 0 0 1 1.8520833,2.38125 C 1.8520833,1.651 2.44475,1.0583333 3.175,1.0583333 c 0.73025,0 1.3229167,0.5926667 1.3229167,1.3229167 0,0.4312708 -0.2116667,0.8360833 -0.5688542,1.0847917 z"
          id="path5247" />
     </symbol>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16993"
+       id="radialGradient16839"
+       cx="125.91196"
+       cy="131.46335"
+       fx="125.91196"
+       fy="131.46335"
+       r="29.93042"
+       gradientTransform="matrix(1,0,0,0.9508867,0,6.4565986)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17029"
+       id="radialGradient17031"
+       cx="90.317057"
+       cy="130.30402"
+       fx="90.317057"
+       fy="130.30402"
+       r="10.430193"
+       gradientTransform="matrix(1.5693516,0,0,1.539197,-51.613075,-70.14092)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17029"
+       id="radialGradient17039"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5693516,0,0,1.539197,-90.034932,-69.569559)"
+       cx="90.317057"
+       cy="130.30402"
+       fx="90.317057"
+       fy="130.30402"
+       r="10.430193" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17029"
+       id="radialGradient17057"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5693516,0,0,1.539197,90.220959,-164.38572)"
+       cx="90.317057"
+       cy="130.30402"
+       fx="90.317057"
+       fy="130.30402"
+       r="10.430193" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17029"
+       id="linearGradient17069"
+       gradientUnits="userSpaceOnUse"
+       x1="77.446754"
+       y1="66.675674"
+       x2="77.215179"
+       y2="75.142342" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter17075"
+       x="-0.08109088"
+       width="1.1621818"
+       y="-0.23068989"
+       height="1.4613798">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.73752578"
+         id="feGaussianBlur17077" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -91,18 +181,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="74.527667"
-     inkscape:cy="592.93967"
+     inkscape:cx="344.11447"
+     inkscape:cy="493.01602"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer11"
      showgrid="false"
      width="1024mm"
      units="px"
-     inkscape:window-width="3440"
-     inkscape:window-height="1387"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1780"
+     inkscape:window-height="1378"
+     inkscape:window-x="-6"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      showguides="false"
      inkscape:guide-bbox="true">
     <sodipodi:guide
@@ -239,7 +329,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -283,13 +373,13 @@
      style="display:inline">
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:0.08040203;stroke:none;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 106.90242,113.92379 v 35.07913 l -10.356675,9.47136 H 34.806483 v -11.95531 l -11.091684,1e-5 v -6.81537 l -6.322374,-4.45338 v -11.98754 l 6.322374,-5.12173 v -4.21717 z"
-       id="room_lounge"
+       d="m 74.528938,113.9181 c 0.05143,12.6238 0.0683,31.02424 0.05639,44.55618 H 34.806483 v -11.95531 l -11.091684,1e-5 v -6.81537 l -6.322374,-4.45338 v -11.98754 l 6.322374,-5.12173 v -4.21717 z"
+       id="room_office"
        inkscape:connector-curvature="0"
-       inkscape:label="#lounge"
-       sodipodi:nodetypes="cccccccccccc">
+       inkscape:label="#office"
+       sodipodi:nodetypes="ccccccccccc">
       <title
-         id="title4561">Lounge Room</title>
+         id="title4561">Office</title>
     </path>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:0.08040203;stroke:none;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -302,14 +392,15 @@
          id="title4565">Garage</title>
     </path>
     <path
-       style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:0.08040203;stroke:none;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 144.92151,113.92379 v 35.07913 h -38.01909 v -35.07913 z"
-       id="room_kitchen"
+       style="opacity:0.75;vector-effect:none;fill:#cccccc;fill-opacity:0.08235294;fill-rule:nonzero;stroke:none;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 144.92151,113.92379 v 35.07913 h -23.67338 v -6.44278 l -7.11344,-6.25252 h -7.23227 v -22.38383 z"
+       id="sensor.kitchen_room"
        inkscape:connector-curvature="0"
        inkscape:label="#kitchen"
-       sodipodi:nodetypes="ccccc">
+       sodipodi:nodetypes="cccccccc">
       <title
-         id="title4573">Kitchen</title>
+         id="title4573"
+         style="fill:url(#radialGradient16839);fill-opacity:1">Kitchen</title>
     </path>
     <path
        style="opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:0.08040203;stroke:none;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -420,6 +511,15 @@
        inkscape:label="#dining">
       <title
          id="title4617">Dining Room</title>
+    </path>
+    <path
+       style="fill:#cccccc;fill-opacity:0.08235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 74.528938,113.9181 32.373482,0.006 v 35.07913 l -10.356677,9.47136 H 74.585326 Z"
+       id="Lounge_Room"
+       inkscape:connector-curvature="0"
+       inkscape:label="#lounge">
+      <title
+         id="title17043">Lounge Room</title>
     </path>
   </g>
   <g
@@ -1928,7 +2028,7 @@
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 34.806483,56.89369 V 63.3181"
-       id="binary_sensor.front_door_sensor"
+       id="binary_sensor.front_door"
        inkscape:connector-curvature="0"
        inkscape:label="#door"
        sodipodi:nodetypes="cc">
@@ -1938,7 +2038,7 @@
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 86.18802,64.67424 h 7.534778"
-       id="binary_sensor.garage_door_sensor"
+       id="binary_sensor.garage_door"
        inkscape:connector-curvature="0"
        inkscape:label="#door"
        sodipodi:nodetypes="cc">
@@ -1948,7 +2048,7 @@
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 121.19571,91.28426 h 14.17174"
-       id="binary_sensor.door_and_window_sensor_5273"
+       id="binary_sensor.back_door"
        inkscape:connector-curvature="0"
        inkscape:label="#door"
        sodipodi:nodetypes="cc">
@@ -2078,11 +2178,61 @@
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 114.88712,43.17074 5.77636,5.08062"
-       id="door_pantry"
+       id="binary_sensor.pantry_door"
        inkscape:connector-curvature="0"
        inkscape:label="#door">
       <title
          id="title5036">Pantry Door</title>
+    </path>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label="Illumination"
+     style="display:inline">
+    <rect
+       transform="translate(0,-93.800041)"
+       inkscape:label="#office"
+       y="114.9399"
+       x="35.335651"
+       height="32.108242"
+       width="32.737278"
+       id="binary_sensor.office_illuminated"
+       style="display:inline;opacity:0.75;vector-effect:none;fill:url(#radialGradient17039);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.15507281;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill">
+      <title
+         id="title17035">Office Illumination</title>
+    </rect>
+    <rect
+       transform="translate(0,-93.800041)"
+       style="display:inline;opacity:0.75;vector-effect:none;fill:url(#radialGradient17031);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.15507281;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="binary_sensor.lounge_room_illuminated"
+       width="32.737278"
+       height="32.108242"
+       x="73.757507"
+       y="114.36854"
+       inkscape:label="#lounge">
+      <title
+         id="title17033">Lounge Room Illumination</title>
+    </rect>
+    <rect
+       style="display:inline;opacity:0.75;vector-effect:none;fill:url(#radialGradient17057);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.15507281;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect17055"
+       width="32.737278"
+       height="32.108242"
+       x="215.59154"
+       y="20.123745"
+       inkscape:label="#office">
+      <title
+         id="title17053">Office Illumination</title>
+    </rect>
+    <path
+       style="fill:url(#linearGradient17069);fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17075)"
+       d="m 70.114577,67.204176 h 14.155206 l 4.101049,7.672906 -21.828125,-0.132291 z"
+       id="binary_sensor.garage_workbench_illumination"
+       inkscape:connector-curvature="0"
+       inkscape:label="#workbench">
+      <title
+         id="title17079">Garage Workbench Illumination</title>
     </path>
   </g>
   <g
@@ -2103,9 +2253,9 @@
        rx="1.8791373"
        cy="36.725998"
        cx="90.249962"
-       id="light.living_room"
+       id="light.lounge_room_light"
        style="opacity:1;vector-effect:none;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.07637649;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       inkscape:label="Living Room Light" />
+       inkscape:label="Lounge Room Light" />
     <ellipse
        style="opacity:1;vector-effect:none;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.07637649;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="light.kitchen"

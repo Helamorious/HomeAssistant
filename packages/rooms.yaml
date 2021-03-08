@@ -1,0 +1,25 @@
+# This is to add room objects that FloorPlan can use to manipulate room illumination rendering based on light status
+
+# Kitchen
+binary_sensor:
+  - platform: data_template
+    sensors:
+      office_illumination:
+        friendly_name: "Office Illumination"
+        value_template: >-
+          {{state(light.office_light)}}
+
+      lounge_room_illumination:
+        friendly_name: "Lounge Room Illumination"
+        value_template: >-
+          {{state(light.lounge_room)}}
+
+      master_bedroom_illumination:
+        friendly_name: "Master Bedroom Illumination"
+        value_template: >-
+          {{state(light.master_bedroom)}}
+
+      garage_workbench_illumination:
+        friendly_name: "Garage Workbench Illumination"
+        value_template: >-
+          {{state(binary_switch.garage_workbench_light_relay)}}
