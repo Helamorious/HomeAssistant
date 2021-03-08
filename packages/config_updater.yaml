@@ -3,8 +3,8 @@
 # Connect to TravisCI
 sensor:
   - platform: travisci
-    api_key: !secret travis_ci_access_token
-    repository: Helamorious/HomeAssistant
+    api_key: !secret travisci_access_token
+    repository: HomeAssistant
 
 # Create a item to hold the value of the current version
 input_text:
