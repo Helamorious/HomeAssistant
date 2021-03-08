@@ -181,10 +181,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="344.11447"
-     inkscape:cy="493.01602"
+     inkscape:cx="556.28671"
+     inkscape:cy="613.01602"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer11"
+     inkscape:current-layer="layer13"
      showgrid="false"
      width="1024mm"
      units="px"
@@ -2197,7 +2197,7 @@
        x="35.335651"
        height="32.108242"
        width="32.737278"
-       id="binary_sensor.office_illuminated"
+       id="binary_sensor.office_illumination"
        style="display:inline;opacity:0.75;vector-effect:none;fill:url(#radialGradient17039);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.15507281;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill">
       <title
          id="title17035">Office Illumination</title>
@@ -2205,7 +2205,7 @@
     <rect
        transform="translate(0,-93.800041)"
        style="display:inline;opacity:0.75;vector-effect:none;fill:url(#radialGradient17031);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.15507281;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       id="binary_sensor.lounge_room_illuminated"
+       id="binary_sensor.lounge_room_illumionation"
        width="32.737278"
        height="32.108242"
        x="73.757507"
@@ -2216,14 +2216,14 @@
     </rect>
     <rect
        style="display:inline;opacity:0.75;vector-effect:none;fill:url(#radialGradient17057);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.15507281;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       id="rect17055"
+       id="binary_sensor.master_bedroom_illumination"
        width="32.737278"
        height="32.108242"
        x="215.59154"
        y="20.123745"
-       inkscape:label="#office">
+       inkscape:label="#master_bedroom">
       <title
-         id="title17053">Office Illumination</title>
+         id="title17053">Master Bedroom Illumination</title>
     </rect>
     <path
        style="fill:url(#linearGradient17069);fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter17075)"
