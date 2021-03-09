@@ -30,9 +30,8 @@ automation:
   condition: "{{ is_state('sensor.helamorious_homeassistant_last_build_state','passed') }}"
   action:
     - service: input_text.set_value
-      target:
+      data_template:
         entity_id: input_text.current_build_id
-      data:
         value: "{{ states('sensor.helamorious_homeassistant_last_build_id') }}"
     - service: shell_command.git_pull
     - service: homeassistant.restart
