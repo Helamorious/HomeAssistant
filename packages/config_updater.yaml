@@ -36,3 +36,4 @@ automation:
         value: "{{ states('sensor.helamorious_homeassistant_last_build_id') }}"
     - service: shell_command.git_pull
     - service: homeassistant.restart
+  
