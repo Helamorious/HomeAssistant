@@ -25,13 +25,11 @@ automation:
   id: "config_updater"
   alias: "Configuration Updater"
   trigger:
-    platform: template
-    # trigger should be when the build state changes...
-    # build ID check should be a condition,,,
-    value_template: "{{ not(is_state('sensor.helamorious_homeassistant_last_build_id', states('input_text.current_build_id'))) }}"
+    - platform: state
+      entity_id: sensor.helamorious_homeassistant_last_build_id
   condition:
     - condition: state
-      entitiy_id: sensor.helamorious_homeassistant_last_build_state
+      entity_id: sensor.helamorious_homeassistant_last_build_state
       state: "passed"
   action:
     - service: input_text.set_value
