@@ -25,9 +25,12 @@ automation:
   id: "config_updater"
   alias: "Configuration Updater"
   trigger:
-    platform: template
-    value_template: "{{ not(is_state('sensor.helamorious_homeassistant_last_build_id', states('input_text.current_build_id'))) }}"
-  condition: "{{ is_state('sensor.helamorious_homeassistant_last_build_state','passed') }}"
+    - platform: state
+      entity_id: sensor.helamorious_homeassistant_last_build_id
+  condition:
+    - condition: state
+      entity_id: sensor.helamorious_homeassistant_last_build_state
+      state: "passed"
   action:
     - service: input_text.set_value
       data_template:
