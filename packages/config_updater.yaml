@@ -30,7 +30,9 @@ automation:
     # build ID check should be a condition,,,
     value_template: "{{ not(is_state('sensor.helamorious_homeassistant_last_build_id', states('input_text.current_build_id'))) }}"
   condition:
-    - condition: "{{ is_state('sensor.helamorious_homeassistant_last_build_state','passed') }}"
+    - condition: state
+      entitiy_id: sensor.helamorious_homeassistant_last_build_state
+      state: "passed"
   action:
     - service: input_text.set_value
       data_template:
