@@ -29,8 +29,8 @@ automation:
     # trigger should be when the build state changes...
     # build ID check should be a condition,,,
     value_template: "{{ not(is_state('sensor.helamorious_homeassistant_last_build_id', states('input_text.current_build_id'))) }}"
-  conditions:
-    condition: "{{ is_state('sensor.helamorious_homeassistant_last_build_state','passed') }}"
+  condition:
+    - condition: "{{ is_state('sensor.helamorious_homeassistant_last_build_state','passed') }}"
   action:
     - service: input_text.set_value
       data_template:
