@@ -1,4 +1,5 @@
-# Keep the configuration up to date with the latest stable release
+# Keep the configuration up to date with the latest version in the repository if
+# it is passing build checks.
 
 # Note; when using travis-ci.com (instead of .org), need to fix the
 #  URI thats passed into travispy. This is done at:
@@ -20,7 +21,10 @@ input_text:
 shell_command:
   git_pull: 'git pull'
 
-# Create an automation to evaluate if the build is current, and then update if a new build is passing TravisCI
+# Configuration update automation
+#  If there is a new build
+#  And the build state is passing Travis-CI checks
+#  Pull the repo, and restart HA
 automation:
   id: "config_updater"
   alias: "Configuration Updater"
