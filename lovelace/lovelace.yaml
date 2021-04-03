@@ -6,10 +6,14 @@ mode: storage
 #  - url: /local/floorplan/floorplan-card.js
 #    type: module
 
-dashboards:
-  floorplan-yaml:
-    title: FloorPlan
-    mode: yaml
-    filename: lovelace/floorplan.yaml
-    icon: mdi:floor-plan
-    show_in_sidebar: true
+#dashboards:
+#  floorplan-yaml:
+#    title: FloorPlan
+#    mode: yaml
+#    filename: lovelace/floorplan.yaml
+#    icon: mdi:floor-plan
+#    show_in_sidebar: true
+
+resources:
+  - url: /hacsfiles/ha-floorplan/floorplan.js
+    type: module
