@@ -1,53 +1,54 @@
-- title: Floorplan
-  path: floorplan
-  cards:
-    - type: vertical-stack
-      cards:
-        - type: horizontal-stack
-          cards:
-            - type: 'custom:floorplan-card'
-              full_height: true
-              config:
-                image: /local/floorplan/hilton/floorplan.svg
-                stylesheet: /local/floorplan/hilton/floorplan.css
-                log_level: info
-                console_log_level: info
-                defaults:
-                  hover_action: hover-info
-                  tap_action: more_info
-                rules:
-                  # Rooms
-                  - entities:
-                      - binary_sensor.office_illumination
-                      - binary_sensor.lounge_room_illumination
-                      - binary_sensor.master_bedroom_illumination
-                      - binary_sensor.garage_workbench_illumination
-                    states:
-                      - class: 'room-light'
-                        state: 'on'
-                      - class: 'room-dark'
-                        state: 'off'
-        
-                  # Lights
-                  - entities:
-                      - light.bedroom_light
-                      - light.lounge_room_light
-                      - light.office_light
-                      - switch.garage_workbench_light_relay
-                    states:
-                      - class: 'light-off'
-                        state: 'off'
-                      - class: 'light-on'
-                        state: 'on'
-                  
-                  # Doors
-                  - entities:
-                      - binary_sensor.front_door
-                      - binary_sensor.back_door
-                      - binary_sensor.garage_door
-                      - binary_sensor.pantry_door
-                    states:
-                      - class: 'door-closed'
-                        state: 'off'
-                      - class: 'door-open'
-                        state: 'on'
+views:
+  - title: Floorplan
+    path: floorplan
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - type: 'custom:floorplan-card'
+                full_height: true
+                config:
+                  image: /local/floorplan/hilton/floorplan.svg
+                  stylesheet: /local/floorplan/hilton/floorplan.css
+                  log_level: info
+                  console_log_level: info
+                  defaults:
+                    hover_action: hover-info
+                    tap_action: more_info
+                  rules:
+                    # Rooms
+                    - entities:
+                        - binary_sensor.office_illumination
+                        - binary_sensor.lounge_room_illumination
+                        - binary_sensor.master_bedroom_illumination
+                        - binary_sensor.garage_workbench_illumination
+                      states:
+                        - class: 'room-light'
+                          state: 'on'
+                        - class: 'room-dark'
+                          state: 'off'
+          
+                    # Lights
+                    - entities:
+                        - light.bedroom_light
+                        - light.lounge_room_light
+                        - light.office_light
+                        - switch.garage_workbench_light_relay
+                      states:
+                        - class: 'light-off'
+                          state: 'off'
+                        - class: 'light-on'
+                          state: 'on'
+                    
+                    # Doors
+                    - entities:
+                        - binary_sensor.front_door
+                        - binary_sensor.back_door
+                        - binary_sensor.garage_door
+                        - binary_sensor.pantry_door
+                      states:
+                        - class: 'door-closed'
+                          state: 'off'
+                        - class: 'door-open'
+                          state: 'on'
