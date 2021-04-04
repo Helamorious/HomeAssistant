@@ -30,11 +30,8 @@ automation:
   alias: "Configuration Updater"
   trigger:
     - platform: state
-      entity_id: sensor.helamorious_homeassistant_last_build_id
-  condition:
-    - condition: state
-      entity_id: sensor.helamorious_homeassistant_last_build_state
-      state: "passed"
+      entity_id: sensor.helamorious_homeassistant_state
+      to: "passed"
   action:
     - service: input_text.set_value
       data_template:
