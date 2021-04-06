@@ -1,6 +1,7 @@
 views:
   - title: Floorplan
     path: floorplan
+    panel: true
     cards:
       - type: 'custom:floorplan-card'
         full_height: true
