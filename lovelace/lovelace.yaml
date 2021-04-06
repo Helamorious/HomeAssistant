@@ -18,3 +18,4 @@ resources:
   - url: /hacsfiles/ha-floorplan/floorplan.js
     type: module
   
+!include: /lovelace/floorplan.yaml
