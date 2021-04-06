@@ -25,6 +25,8 @@ views:
                   state: 'on'
                 - class: 'room-dark'
                   state: 'off'
+              hover_action: false
+              tap_action: false
   
             # Lights
             - entities:
