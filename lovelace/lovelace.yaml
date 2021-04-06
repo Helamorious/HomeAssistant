@@ -5,7 +5,7 @@ resources:
     type: module
 
 dashboards:
-  floorplan:
+  floorplan-yaml:
     mode: yaml
     title: Floorplan
     icon: mdi:floor-plan
