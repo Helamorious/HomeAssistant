@@ -1,19 +1,13 @@
 mode: storage
 
-# Primary UI is running in Storage mode;
-#  Resources are defined in the UI.
-#resources:
-#  - url: /local/floorplan/floorplan-card.js
-#    type: module
-
-#dashboards:
-#  floorplan-yaml:
-#    title: FloorPlan
-#    mode: yaml
-#    filename: lovelace/floorplan.yaml
-#    icon: mdi:floor-plan
-#    show_in_sidebar: true
-
 resources:
   - url: /hacsfiles/ha-floorplan/floorplan.js
     type: module
+
+dashboards:
+  floorplan:
+    mode: yaml
+    title: Floorplan
+    icon: mdi:floor-plan
+    show_in_sidebar: true
+    filename: lovelace/floorplan.yaml
