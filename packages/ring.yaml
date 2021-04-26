@@ -46,7 +46,7 @@ image_processing:
       - "/config/tmp/{{ camera_entity.split('.')[1] }}_{{ now().strftime('%Y%m%d_%H%M%S') }}.jpg"
     model:
       # Configure the tensorflow learning data
-      graph: /config/tensorflow/models/efficientdet_d0_coco17_tpu-32/
+      graph: /config/tensorflow/models/
       categories:
         - person
 
