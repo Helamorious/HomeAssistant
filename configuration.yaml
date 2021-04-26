@@ -58,6 +58,10 @@ http:
 # the hub location and authentication is now stored in the token.
 # hue:
 
+# InfluxDB
+influxdb: !include config/influxdb.yaml
+
+
 # IOS
 # Depends on 'mobile_app', 'discovery'
 ios:
