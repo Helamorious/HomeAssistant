@@ -10,4 +10,4 @@ tags:
   source: HA
 tags_attributes:
   - friendly_name
-default_m,easurement: units
+default_measurement: units
