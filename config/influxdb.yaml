@@ -1,3 +1,5 @@
+# InfluxDB https://www.home-assistant.io/integrations/influxdb/
+
 api_version: 2
 ssl: true
 verify_ssl: false
