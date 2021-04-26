@@ -5,7 +5,7 @@ influxdb:
   host: hass_influx
   port: 8086
   token: !secret hass_influx_token
-  organization: Hilton
+  organization: !secret hass_influx_orgid
   bucket: homeassistant
   tags:
     source: HA
