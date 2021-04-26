@@ -1,0 +1,8 @@
+influxdb:
+  api_version: 2
+  ssl: false
+  host: hass_influx
+  port: 8086
+  token: !secret hass_influx_token
+  organization: Hilton
+  bucket: homeassistant
