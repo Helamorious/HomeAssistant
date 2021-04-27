@@ -10,8 +10,9 @@ before_install:
   - git clone https://github.com/claytonjn/hass-circadian_lighting.git
   - pwd
   - ls -la
-  - mv /home/travis/build/Helamorious/HomeAssistant/hass-circadian_lighting/custom_components/circadian_lighting /config/custom_components
-  - ls -la /config/custom_components/circadian_lighting
+  - mv ./hass-circadian_lighting/custom_components ./
+  - ls -la
+  - ls -la ./custom_components/
 install:
   - pip3 install homeassistant
 script:
