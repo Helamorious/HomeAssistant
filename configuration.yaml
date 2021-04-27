@@ -76,6 +76,7 @@ logger:
   default: warning
   logs:
     homeassistant.components.travisci: info
+    homeassistant.components.influxdb: info
 
 # Lovelace UI
 lovelace: !include lovelace/lovelace.yaml
