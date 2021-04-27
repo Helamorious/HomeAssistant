@@ -1,6 +1,5 @@
 switch:
-  - platform: switch
-    friendly_name: Circadian Lighting Control
+  - friendly_name: Circadian Lighting Control
     entity_id: circadian_lighting_control
     icon: mdi:brightness4
     initial_state: on
