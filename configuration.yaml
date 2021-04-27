@@ -73,7 +73,7 @@ logbook:
 
 # Logger
 logger:
-  default: warning
+  default: info
   logs:
     homeassistant.components.travisci: info
     homeassistant.components.influxdb: info
