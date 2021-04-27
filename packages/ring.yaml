@@ -15,9 +15,10 @@ homeassistant:
       hidden: true
 
 # Enable the Ring integration
-ring:
-  username: !secret ring_user
-  password: !secret ring_pass
+# This is enabled in the GUI...
+#ring:
+#  username: !secret ring_user
+#  password: !secret ring_pass
 
 camera:
   # Create a camera instance for processing a local file

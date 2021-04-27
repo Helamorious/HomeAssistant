@@ -1,9 +1,0 @@
-# https://www.home-assistant.io/integrations/plex/
-
-homeassistant:
-  customize:
-    plex_hiltonnas:
-      hidden: true
-
-host: plex.hilton.local
-token: !secret plex_token
