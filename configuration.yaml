@@ -61,7 +61,6 @@ http:
 # InfluxDB
 influxdb: !include config/influxdb.yaml
 
-
 # IOS
 # Depends on 'mobile_app', 'discovery'
 ios:
