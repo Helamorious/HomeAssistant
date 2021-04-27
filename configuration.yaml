@@ -69,7 +69,13 @@ ios:
 # Logbook
 # https://www.home-assistant.io/components/logbook/
 # Note: All entries need to also be defined in recorder.yaml
-logbook: 
+logbook:
+
+# Logger
+logger:
+  default: warning
+  logs:
+    homeassistant.components.travisci: info
 
 # Lovelace UI
 lovelace: !include lovelace/lovelace.yaml
