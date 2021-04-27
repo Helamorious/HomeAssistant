@@ -1,0 +1,12 @@
+switch:
+  - platform: switch
+    friendly_name: Circadian Lighting Control
+    entity_id: circadian_lighting_control
+    icon: mdi:brightness4
+    initial_state: on
+
+  - platform: circadian_lighting
+    lights_ct:
+      - light.lounge
+      - light.office
+    disable_entity: circadian_lighting_control
