@@ -1,8 +1,7 @@
 # InfluxDB https://www.home-assistant.io/integrations/influxdb/
 
 api_version: 2
-ssl: true
-verify_ssl: false
+ssl: false
 host: !secret hass_influx_ip
 port: 8086
 token: !secret hass_influx_token
