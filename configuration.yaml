@@ -73,7 +73,7 @@ logbook:
 
 # Logger
 logger:
-  default: debug
+  default: info
 
 # Lovelace UI
 lovelace: !include lovelace/lovelace.yaml
