@@ -1,6 +1,0 @@
-# https://www.home-assistant.io/integrations/tplink/
-
-discovery: false
-switch:
-  - host: !secret tp_switch1
-  - host: !secret tp_switch2

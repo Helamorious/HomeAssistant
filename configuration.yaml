@@ -9,6 +9,7 @@ homeassistant:
   elevation: !secret elevation
   unit_system: metric
   time_zone: !secret tz
+
   # Authentication Providers
   # https://www.home-assistant.io/docs/authentication/providers/
   auth_providers:
@@ -113,9 +114,11 @@ sun:
 system_health:
 
 # TP-Link Kasa
-tplink: !include config/tplink.yaml
+# Migrated to GUI integration
+# tplink: !include config/tplink.yaml
 
 # Ubiquiti Protect
+# This is a HACS integration
 
 # Updater
 # https://www.home-assistant.io/integrations/updater/
