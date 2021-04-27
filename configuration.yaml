@@ -14,9 +14,9 @@ homeassistant:
   auth_providers:
     - type: homeassistant
 
-  # Packages
-  # https://home-assistant.io/docs/configuration/packages/ 
-  packages: !include_dir_named packages
+# Packages
+# https://home-assistant.io/docs/configuration/packages/ 
+packages: !include_dir_named packages
 
 ## Integrations
 
