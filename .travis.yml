@@ -7,13 +7,8 @@ before_install:
   - mv tensorflow/models/frozen_inference_graph.pb_travis tensorflow/models/frozen_inference_graph.pb
   - sudo apt-get install -y libudev-dev libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libswresample-dev libavfilter-dev libatlas-base-dev libopenjp2-7 libtiff5
   - sudo ln -s /home/travis/build/Helamorious/HomeAssistant/ /config
-  - git clone https://github.com/claytonjn/hass-circadian_lighting.git
-  - pwd
-  - ls -la
-  - mv ./hass-circadian_lighting/custom_components ./
-  - ls -la
-  - ls -la ./custom_components/
 install:
   - pip3 install homeassistant
 script:
-  - hass -c . --script check_config
+  - /config/travis_scripts/circadian_lighting.sh
+  - hass -c . --script check_config --info all
