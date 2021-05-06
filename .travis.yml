@@ -9,6 +9,6 @@ before_install:
   - sudo ln -s /home/travis/build/Helamorious/HomeAssistant/ /config
 install:
   - pip3 install homeassistant
-  - /config/travis_scripts/circadian_lighting.sh
 script:
+  - /config/travis_scripts/circadian_lighting.sh
   - hass -c . --script check_config --info all
