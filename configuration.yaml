@@ -31,6 +31,10 @@ api:
 # https://www.home-assistant.io/integrations/automation/
 automation:
 
+# Circadian Lighting (Custom_Component)
+# https://github.com/claytonjn/hass-circadian_lighting#basic-installationconfiguration-instructions
+circadian_lighting:
+
 # Config
 # https://www.home-assistant.io/components/config/
 config:
