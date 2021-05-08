@@ -1,9 +1,9 @@
 # Create Dummy Hue entities
 emulated_hue:
   entities:
-    lounge:
+    light.lounge:
       name: "Lounge Room"
-    office:
+    light.office:
       name: "Office"
-    master_bedroom:
+    light.master_bedroom:
       name: "Master Bedroom"
