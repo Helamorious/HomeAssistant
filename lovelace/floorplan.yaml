@@ -19,7 +19,6 @@ views:
                 - binary_sensor.office_illumination
                 - binary_sensor.lounge_room_illumination
                 - binary_sensor.master_bedroom_illumination
-                - binary_sensor.garage_workbench_illumination
               states:
                 - class: 'room-light'
                   state: 'on'
@@ -30,10 +29,9 @@ views:
   
             # Lights
             - entities:
-                - light.bedroom_light
-                - light.lounge_room_light
-                - light.office_light
-                - switch.garage_workbench_light_relay
+                - light.master_bedroom
+                - light.lounge
+                - light.office
               states:
                 - class: 'light-off'
                   state: 'off'
