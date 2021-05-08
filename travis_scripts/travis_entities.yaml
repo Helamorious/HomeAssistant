@@ -1,0 +1,7 @@
+# Create Dummy Hue entities
+light:
+  - platform: template
+      lights:
+        lounge:
+        master_bedroom:
+        office:
