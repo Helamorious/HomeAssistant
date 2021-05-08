@@ -9,4 +9,4 @@ switch:
     lights_ct:
       - light.lounge
       - light.office
-    disable_entity: circadian_lighting_control
+    disable_entity: input_boolean.circadian_lighting_control
