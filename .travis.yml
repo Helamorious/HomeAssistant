@@ -7,7 +7,7 @@ before_install:
   - mv tensorflow/models/frozen_inference_graph.pb_travis tensorflow/models/frozen_inference_graph.pb
   - sudo apt-get install -y libudev-dev libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libswresample-dev libavfilter-dev libatlas-base-dev libopenjp2-7 libtiff5
   - sudo ln -s /home/travis/build/Helamorious/HomeAssistant/ /config
-  - mv travis_scripts/travis_entities.yaml packages
+  - mv /config/travis_scripts/travis_entities.yaml /config/packages
 install:
   - pip3 install homeassistant
 script:
