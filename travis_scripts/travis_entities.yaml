@@ -3,5 +3,8 @@ light:
   - platform: template
       lights:
         lounge:
+          friendly_name: "Lounge Room"
         master_bedroom:
+          friendly_name: "Master Bedroom"
         office:
+          friendly_name: "Office"
