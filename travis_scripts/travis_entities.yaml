@@ -1,10 +1,9 @@
 # Create Dummy Hue entities
-light:
-  - platform: template
-      lights:
-        lounge:
-          friendly_name: "Lounge Room"
-        master_bedroom:
-          friendly_name: "Master Bedroom"
-        office:
-          friendly_name: "Office"
+emulated_hue:
+  entities:
+    lounge:
+      name: "Lounge Room"
+    office:
+      name: "Office"
+    master_bedroom:
+      name: "Master Bedroom"
