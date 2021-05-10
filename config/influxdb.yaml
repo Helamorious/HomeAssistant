@@ -11,3 +11,20 @@ tags:
   source: HA
 tags_attributes:
   - friendly_name
+include:
+  entities:
+    - sensor.garage_temperature
+    - sensor.kitchen_temperature
+    - sensor.master_bedroom_temperature
+    - sensor.office_temperature
+    - sensor.outside_temperature
+    - sensor.garage_humidity
+    - sensor.kitchen_humidity
+    - sensor.master_bedroom_humidity
+    - sensor.office_humidity
+    - sensor.outside_humidity
+    - sensor.garage_pressure
+    - sensor.kitchen_pressure
+    - sensor.master_bedroom_pressure
+    - sensor.office_pressure
+    - sensor.outside_pressure
