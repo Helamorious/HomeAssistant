@@ -19,11 +19,10 @@ views:
                 - binary_sensor.office_illumination
                 - binary_sensor.lounge_room_illumination
                 - binary_sensor.master_bedroom_illumination
-              states:
-                - class: 'room-light'
-                  state: 'on'
-                - class: 'room-dark'
-                  state: 'off'
+              state_action:
+                action: call-service
+                service: floorplan.class_set
+                  service_data: '${(entity.state === "on") ? "room-light" : "room-dark"}'
               hover_action: false
               tap_action: false
   
@@ -32,20 +31,18 @@ views:
                 - light.master_bedroom
                 - light.lounge
                 - light.office
-              states:
-                - class: 'light-off'
-                  state: 'off'
-                - class: 'light-on'
-                  state: 'on'
-            
+              state_action:
+                action: call-service
+                service: floorplan.class_set
+                  service_data: '${(entity.state === "on") ? "light-on" : "light-off"}'
+           
             # Doors
             - entities:
                 - binary_sensor.front_door
                 - binary_sensor.back_door
                 - binary_sensor.garage_door
                 - binary_sensor.pantry_door
-              states:
-                - class: 'door-closed'
-                  state: 'off'
-                - class: 'door-open'
-                  state: 'on'
+              state_action:
+                action: call-service
+                service: floorplan.class_set
+                  service_data: '${(entity.state === "on") ? "door-open" : "door-closed"}'
