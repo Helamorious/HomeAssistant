@@ -22,8 +22,8 @@ views:
               state_action:
                 action: call-service
                 service: floorplan.class_set
-                  service_data:
-                    class: '${(entity.state === "on") ? "room-light" : "room-dark"}'
+                service_data:
+                  class: '${(entity.state === "on") ? "room-light" : "room-dark"}'
               hover_action: false
               tap_action: false
   
@@ -35,8 +35,8 @@ views:
               state_action:
                 action: call-service
                 service: floorplan.class_set
-                  service_data:
-                    class: '${(entity.state === "on") ? "light-on" : "light-off"}'
+                service_data:
+                  class: '${(entity.state === "on") ? "light-on" : "light-off"}'
            
             # Doors
             - entities:
@@ -47,5 +47,5 @@ views:
               state_action:
                 action: call-service
                 service: floorplan.class_set
-                  service_data: 
-                    class: '${(entity.state === "on") ? "door-open" : "door-closed"}'
+                service_data: 
+                  class: '${(entity.state === "on") ? "door-open" : "door-closed"}'
