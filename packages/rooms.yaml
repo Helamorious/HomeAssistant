@@ -17,4 +17,4 @@ binary_sensor:
 
       garage_workbench_illumination:
         friendly_name: "Garage Workbench Illumination"
-        value_template: "{{ is_state('binary_switch.garage_workbench_light_relay', 'on') }}"
+        value_template: "{{ is_state('switch.garage_workbench_light', 'on') }}"
