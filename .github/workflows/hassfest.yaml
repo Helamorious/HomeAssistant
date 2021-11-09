@@ -13,5 +13,7 @@ jobs:
   validate:
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "actions/checkout@v2"
-      - uses: home-assistant/actions/hassfest@master
+      - name: checkout
+        uses: "actions/checkout@master"
+      - name: check config
+        uses: "glitchcrab/action-hass-check-config@main"
