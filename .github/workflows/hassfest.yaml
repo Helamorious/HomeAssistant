@@ -1,0 +1,17 @@
+# https://developers.home-assistant.io/blog/2020/04/16/hassfest/
+
+name: Hassfest
+
+on:
+  push:
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v2"
+      - uses: home-assistant/actions/hassfest@master
