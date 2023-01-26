@@ -43,6 +43,10 @@ config:
 # https://www.home-assistant.io/integrations/discovery/
 discovery:
 
+# Ecovancs
+# https://www.home-assistant.io/integrations/ecovacs
+ecovacs: !include config/ecovac.yaml
+
 # FFMPEG
 # https://www.home-assistant.io/integrations/ffmpeg/
 ffmpeg:

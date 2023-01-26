@@ -1,0 +1,13 @@
+# https://www.home-assistant.io/integrations/ecovacs/
+
+ecovacs:
+  username: !secret ecovac_user
+  password: !secret ecovac_pass
+  country: AU
+  continent: WW
+
+logger:
+  logs:
+    homeassistant.components.ecovacs: debug
+    homeassistant.components.vacuum.ecovacs: debug
+    sucks: debug

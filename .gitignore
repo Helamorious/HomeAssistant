@@ -26,3 +26,4 @@ home-assistant.*
 tmp
 frozen_inference_graph.pb
 ToDo
+HomeAutomation.code-workspace
